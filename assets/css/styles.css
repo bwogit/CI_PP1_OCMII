@@ -1,3 +1,14 @@
-body {
-    color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+/* setting up padding border margin to 0 */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+body{
+    font-weight: Montserrat, sans-serif;
+    font-weight: 300;
 }
