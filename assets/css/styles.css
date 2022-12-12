@@ -68,6 +68,24 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url("../images/OCMii_hero.png") no-repeat center center ;
+    /* zoom animation*/
+ animation-name: hero_zoom;
+ animation-duration: 3s ;
+ animation-fill-mode: forwards;
  }
+
+ 
+
+ /*TRansition(zoom)effect for hero image */
+ @keyframes hero_zoom {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+ }
+
+
 
  
