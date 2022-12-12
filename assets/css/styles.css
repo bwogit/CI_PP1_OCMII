@@ -23,35 +23,16 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 400%;
+    font-size: 200%;
+    
 }
-.logo_upper {
-    height:69px;
-    float:left;
-    width:48%;
-    clear:right;
-}
-.logo_lower {
-    height:200px;
-    margin-top:10px;
-    display:block;
-    float:left;
-    width:48%;
-    clear:left;
-}
-#menu_position {
-    height:69px;
-    line-height:30px;
-    float:right;
-    width:48%;
-    clear:right
-}
+
 
 #menu {
     font-size: 110%;
     }
-#menu_position, #logo_upper {
-    
+#menu, #logo{
+    line-height: 75px;
 }    
 
 #menu li {
