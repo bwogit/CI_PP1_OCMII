@@ -53,3 +53,12 @@ h1, h2 {
     border-bottom: 1px solid red;
     
  }
+
+ /* hero image */
+
+ #hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/OCMii_hero.png") no-repeat center center ;
+
+ }
