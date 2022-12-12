@@ -137,7 +137,7 @@ h1, h2 {
     color: white;
 }
 
-/*Ocmii areas of interest */
+/*Ocmii areas of interest and technologies*/
 
 #ocmii_ethos {
     height: 600px;
@@ -148,8 +148,9 @@ h1, h2 {
     height: 200px;
     width: 33%; 
     float:left;
-    background: url("../images/ocmii_green_technology.jpg") no-repeat center center;
-    background-size: cover;
+    /* background: url("../images/ocmii_green_technology.jpg") no-repeat center center; */
+    /* background-size: cover; */
+    /* object-fit: contain; */
     
 }
 #right_about{
@@ -168,3 +169,6 @@ h1, h2 {
     background:url("../images/OCMii_AI.png.jpg") no-repeat center center; 
     background-size: cover;
 }
+
+/* Animation for the main 3 technologies*/
+
