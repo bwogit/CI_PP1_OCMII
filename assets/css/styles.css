@@ -25,9 +25,8 @@ h1, h2 {
     float: left;
     font-size: 280%;
     letter-spacing: 5px;
-    
-
-    
+    margin-left: 10px;
+        
 }
 
 #menu {
@@ -101,6 +100,7 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
     font-weight: bolder;
     color: white;
+    /* text-align: center; */
 
     width: 400px;
     height: 100px;
@@ -108,10 +108,10 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color:rgba(241,109, 107, .5);
+    background-color:rgba(231, 222, 222, 0);
 
     top: 30px;
-    right:150px ;
+    /* left:15px ; */
     position: absolute;
 }
 #overlay_bottom {
@@ -129,9 +129,29 @@ h1, h2 {
     background-color:rgba(241,109, 107, .5);
 
     bottom: 30px;
-    right:150px ;
+    right:15px ;
     position: absolute;
 }
 
+#overlay_top h2, #overlay_bottom h2 {
+    color: white;
+}
 
- 
+/*Ocmii areas of interest */
+
+#ocmii_ethos {
+    height: 600px;
+}
+
+#left_about{
+    padding-top: 30px ;
+    width: 33%;
+    float:left;
+    background:url("../images/OCMii-Motor.jpg");
+}
+#right_about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background: url("../images/OCMii_AI.png.jpg")
+}
