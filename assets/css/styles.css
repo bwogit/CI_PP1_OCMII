@@ -25,6 +25,8 @@ h1, h2 {
     float: left;
     font-size: 200%;
     
+
+    
 }
 
 #menu {
@@ -70,7 +72,7 @@ h1, h2 {
     background: url("../images/OCMii_hero.png") no-repeat center center ;
     /* zoom animation*/
  animation-name: hero_zoom;
- animation-duration: 3s ;
+ animation-duration: 5s ;
  animation-fill-mode: forwards;
  }
 
@@ -82,10 +84,29 @@ h1, h2 {
         transform: scale(1);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
  }
 
+/* Create a Text Overlay on the Hero Image*/
+#text_overlay {
+
+    font-size: 100%;
+    font-family: lato, sans-serif;
+    color: white;
+
+    width: 300px;
+    height: 100px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color:rgba(241,109, 107, .7);
+
+    bottom: 30px;
+    right:150px ;
+    position:absolute;
+}
 
 
  
