@@ -143,32 +143,83 @@ h1, h2 {
     height: 600px;
 }
 
-#left_about{
-    padding-top: 30px ;
-    height: 200px;
-    width: 33%; 
-    float:left;
-    /* background: url("../images/ocmii_green_technology.jpg") no-repeat center center; */
-    /* background-size: cover; */
-    /* object-fit: contain; */
-    
-}
-#right_about{
-    padding-top: 30px;
+#left_about {
+    /* padding-top: 30px ; */
     width: 33%;
-    height: 200px;
+    height: auto;
+    float: left;
+    position: relative;
+       
+}
+
+#right_about{
+    /* padding-top: 30px; */
+    width: 33%;
+    height: auto;
     float: right;
-    background: url("../images/OCMii-Motor.jpg") no-repeat center center;
-    background-size: cover;
+    /* background: url("../images/OCMii-Motor.jpg") no-repeat center center; */
+    /* background-size: cover; */
+    position: relative;
 }
 #center_about{
-    padding-top: 30px;
+    /* padding-top: 30px; */
     width: 33%;
-    height: 200px;
+    height: auto;
     margin: 0 auto;
-    background:url("../images/OCMii_AI.png.jpg") no-repeat center center; 
-    background-size: cover;
+    /* background:url("../images/OCMii_AI.png.jpg") no-repeat center center;  */
+    /* background-size: cover; */
+    position: relative;
 }
+
 
 /* Animation for the main 3 technologies*/
 
+.image {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
+    opacity: 1;
+    display: block;
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+}
+
+
+.overlay {
+    position: absolute;
+    /* top: 30px; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3f7a78;
+  }
+  
+  #left_about:hover .overlay {
+    opacity: 0.75;
+  }
+
+  #center_about:hover .overlay {
+    opacity: 0.75;
+  }
+
+  #right_about:hover .overlay {
+    opacity: 0.75;
+  }
+  
+  .text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
