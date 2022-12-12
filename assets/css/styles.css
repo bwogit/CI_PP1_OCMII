@@ -23,7 +23,21 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 400%;
+}
+.logo_upper {
+    height:69px;
+    float:left;
+    width:48%;
+    clear:right;
+}
+.logo_lower {
+    height:200px;
+    margin-top:10px;
+    display:block;
+    float:left;
+    width:48%;
+    clear:left;
 }
 
 #menu {
