@@ -39,12 +39,19 @@ h1, h2 {
     width:48%;
     clear:left;
 }
+#menu_position {
+    height:69px;
+    line-height:30px;
+    float:right;
+    width:48%;
+    clear:right
+}
 
 #menu {
     font-size: 110%;
     }
-#menu, #logo {
-    line-height: 75px;
+#menu_position, #logo_upper {
+    
 }    
 
 #menu li {
