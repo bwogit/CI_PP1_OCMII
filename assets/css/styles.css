@@ -95,19 +95,38 @@ h1, h2 {
  }
 
 /* Create a Text Overlay on the Hero Image*/
-#text_overlay {
+#overlay_top {
 
     font-size: 100%;
-    font-family: lato, sans-serif;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
     color: white;
 
-    width: 300px;
+    width: 400px;
     height: 100px;
 
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color:rgba(241,109, 107, .7);
+    background-color:rgba(241,109, 107, .5);
+
+    top: 30px;
+    right:150px ;
+    position: absolute;
+}
+#overlay_bottom {
+
+    font-size: 100%;
+    font-family: Montserrat, sans-serif;
+    color: white;
+
+    width: 400px;
+    height: 100px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color:rgba(241,109, 107, .5);
 
     bottom: 30px;
     right:150px ;
