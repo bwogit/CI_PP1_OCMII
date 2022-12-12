@@ -145,13 +145,26 @@ h1, h2 {
 
 #left_about{
     padding-top: 30px ;
-    width: 33%;
+    height: 200px;
+    width: 33%; 
     float:left;
-    background:url("../images/OCMii-Motor.jpg");
+    background: url("../images/ocmii_green_technology.jpg") no-repeat center center;
+    background-size: cover;
+    
 }
 #right_about{
     padding-top: 30px;
     width: 33%;
+    height: 200px;
     float: right;
-    background: url("../images/OCMii_AI.png.jpg")
+    background: url("../images/OCMii-Motor.jpg") no-repeat center center;
+    background-size: cover;
+}
+#center_about{
+    padding-top: 30px;
+    width: 33%;
+    height: 200px;
+    margin: 0 auto;
+    background:url("../images/OCMii_AI.png.jpg") no-repeat center center; 
+    background-size: cover;
 }
