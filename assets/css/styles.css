@@ -42,3 +42,14 @@ h1, h2 {
     text-decoration: none; /*remove underline in menu*/
     color: inherit;
  }
+
+ #menu a:hover {
+    color: red;
+    
+ }
+ 
+ .current_page {
+    
+    border-bottom: 1px solid red;
+    
+ }
