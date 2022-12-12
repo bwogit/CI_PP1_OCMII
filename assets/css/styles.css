@@ -23,7 +23,8 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 200%;
+    font-size: 280%;
+    letter-spacing: 5px;
     
 
     
@@ -31,6 +32,8 @@ h1, h2 {
 
 #menu {
     font-size: 110%;
+    font-family: Montserrat, sans-serif;
+    color: black;
     }
 #menu, #logo{
     line-height: 75px;
@@ -53,16 +56,19 @@ h1, h2 {
  
  .current_page {
     
-    border-bottom: 1px solid red;
+    /* border-bottom: 1px solid red; */
+    font-weight: bold;
+    font-size: larger;
     
  }
 
  /* hero image */
 
- #hero_envelope{
+ #hero_envelope {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 
  }
 
@@ -105,7 +111,7 @@ h1, h2 {
 
     bottom: 30px;
     right:150px ;
-    position:absolute;
+    position: absolute;
 }
 
 
