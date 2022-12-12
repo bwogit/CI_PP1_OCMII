@@ -28,8 +28,10 @@ h1, h2 {
 
 #menu {
     font-size: 110%;
-    
-}
+    }
+#menu, #logo {
+    line-height: 75px;
+}    
 
 #menu li {
     float: right;
@@ -38,4 +40,5 @@ h1, h2 {
 }
  #menu a {
     text-decoration: none; /*remove underline in menu*/
+    color: inherit;
  }
