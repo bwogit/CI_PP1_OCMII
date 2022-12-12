@@ -26,13 +26,16 @@ h1, h2 {
     font-size: 280%;
 }
 
-#nav_menu {
+#menu {
     font-size: 110%;
     
 }
 
-#nav_menu li {
+#menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px; /* to space each li element */
+    margin-right: 30px; /* to put space between each li element */
 }
+ #menu a {
+    text-decoration: none; /*remove underline in menu*/
+ }
