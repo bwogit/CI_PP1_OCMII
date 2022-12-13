@@ -248,4 +248,7 @@ h1, h2 {
     margin: 2%;
     padding: 5%;
     color: black
- }  
+ } 
+ footer i:hover {
+    color: red;
+ }
