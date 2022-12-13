@@ -230,3 +230,22 @@ h1, h2 {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  /* footer element*/
+  footer {
+    height: 150px;
+  }
+
+  footer > ul{
+    text-align: center;
+    text-decoration: none;
+ }
+   footer li {
+    display: inline;
+   }
+ footer i{
+    font-size: 160%;
+    margin: 2%;
+    padding: 5%;
+    color: black
+ }  
