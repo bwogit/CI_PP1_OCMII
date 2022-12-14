@@ -348,7 +348,95 @@ h1, h2 {
  }
 
  @media screen and (max-width: 600px){
+    .image-about{
+        font-size: 100%;
+        font-family: Montserrat, sans-serif;
+        font-weight: bolder;
+        color: rgb(17, 13, 13);
+        /* text-align: center; */
     
+        width: 286%;
+        height: 87%;
+      
+        padding-top: 40px;
+       
+    
+        background-color:rgba(231, 222, 222, 0);
+    
+        top: 30px;
+        /* left:15px ; */
+        position: absolute;
+     }
+    
+     #first-Para{
+        
+        position: absolute;
+       
+        padding-top: 91%;
+        font-size:large;
+     }
+     .image-about2{
+        font-size: 100%;
+        font-family: Montserrat, sans-serif;
+        font-weight: bolder;
+        color: rgb(17, 13, 13);
+        /* text-align: center; */
+    
+        position: absolute;
+        
+        padding-top: 151%;
+        width: 82%;
+        height: 87%;
+    
+        background-color:rgba(231, 222, 222, 0);
+    
+        top:100px;
+        /* left:15px ; */
+       
+     }
+    
+     #second-para{
+        text-align: left;
+        float: left;
+        position: absolute;
+        
+        padding-right:20%;
+        padding-top: 108%;
+        font-size:large;
+     }
+    
+     .image-about3{
+        font-size: 100%;
+        font-family: Montserrat, sans-serif;
+        font-weight: bolder;
+        color: rgb(17, 13, 13);
+        /* text-align: center; */
+    
+        position: absolute;
+        
+        padding-top: 253%;
+        width: 286%;
+    height: 87%;
+    
+        background-color:rgba(231, 222, 222, 0);
+    
+        top:100px;
+        /* left:15px ; */
+       
+     }
+    
+     #third-para{
+        float: right;
+        position: absolute;
+        
+        padding-top: 75%;
+        font-size:large;
+     }
+
+     footer {
+        height: 50px;
+        padding-top: 221%;
+      }
  }
  
  
