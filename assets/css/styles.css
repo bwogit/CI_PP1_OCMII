@@ -346,5 +346,9 @@ h1, h2 {
     padding-top: 15%;
     font-size:large;
  }
+
+ @media screen and (max-width: 600px){
+    
+ }
  
  
