@@ -145,7 +145,7 @@ h1, h2 {
 }
 
 #ocmii_ethos {
-    height: 600px;
+    height: 350px;
     /* padding: 50px 0; */
     
 }
@@ -233,7 +233,8 @@ h1, h2 {
 
   /* footer element*/
   footer {
-    height: 150px;
+    height: 50px;
+    
   }
 
   footer > ul{
