@@ -193,6 +193,18 @@ h1, h2 {
     position: relative;
 }
 
+.image-about{
+    padding-top: 20%;
+    padding-left: 3%;
+}
+
+.divider {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    overflow: hidden;
+    color: silver;
+}
 
 .overlay {
     position: absolute;
@@ -253,3 +265,31 @@ h1, h2 {
  footer i:hover {
     color: red;
  }
+
+ .image-about{
+    font-size: 100%;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    color: rgb(17, 13, 13);
+    /* text-align: center; */
+
+
+
+    padding-top: 40px;
+    padding-left: 20px;
+
+    background-color:rgba(231, 222, 222, 0);
+
+    top: 30px;
+    /* left:15px ; */
+    position: absolute;
+ }
+
+ #first-Para{
+    float: right;
+    position: absolute;
+    padding-left:30%;
+    padding-top: 5%;
+    font-size:large;
+ }
+ 
