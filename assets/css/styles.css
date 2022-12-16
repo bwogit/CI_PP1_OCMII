@@ -445,12 +445,32 @@ h1, h2 {
     padding-top: 150px;
  }
  #t_section1_div1{
+    padding-top: 10px;
     width: 80%;
     display: flex;
     align-items: center;
     text-align: justify;
+    line-height: 150%;
+    
  }
  #t_section1_div1 img {
+    float: left;
+    width: 300px;
+    margin-right: 100px;
+ }
+ #t_section1_div2{
+    padding-top: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    line-height: 150%;
+    
+ }
+
+ #t_section1_div2 img {
+    float: left;
+    padding-top: 15px;
     width: 300px;
     margin-right: 100px;
  }
