@@ -443,6 +443,7 @@ h1, h2 {
 
  #t_section1 {
     padding-top: 150px;
+    margin-left: 11%;
  }
  #t_section1_div1{
     padding-top: 10px;
@@ -454,7 +455,7 @@ h1, h2 {
     
  }
  #t_section1_div1 img {
-    float: left;
+    margin-left: 5px;
     width: 300px;
     margin-right: 100px;
  }
@@ -469,6 +470,7 @@ h1, h2 {
  }
 
  #t_section1_div2 img {
+
     float: left;
     padding-top: 15px;
     width: 300px;
