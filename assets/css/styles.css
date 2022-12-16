@@ -467,7 +467,7 @@ h1, h2 {
    float: left;
    margin-left: 5px;
    width: 300px;
-   margin-right: 150px;
+   margin-right: 50px;
 
 }
 
@@ -479,12 +479,16 @@ h1, h2 {
    text-align: justify;
    line-height: 150%;
 }
+#a_section1_div2 ul  {
+   list-style-type: none;
+   padding-left: 10px;
+}
 #a_section1_div2 img {
    float: right;
-   margin-left: 5px;
+   margin-left: 50px;
    width: 300px;
-   margin-right: 150px;
-} 
+   /* margin-right: 150px; */
+   } 
 #a_section1_div3 {
    padding-top: 10px;
    width: 80%;
