@@ -445,9 +445,10 @@ h1, h2 {
     padding-top: 150px;
  }
  #t_section1_div1{
-    width: 300px;
+    width: 80%;
     display: flex;
     align-items: center;
+    text-align: justify;
  }
  #t_section1_div1 img {
     width: 300px;
@@ -455,5 +456,5 @@ h1, h2 {
  }
 
  #t_section1_div p {
-    
+
  }
