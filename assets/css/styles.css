@@ -444,3 +444,12 @@ h1, h2 {
  #t_section1 {
     padding-top: 150px;
  }
+ #t_section1_div1{
+    width: 300px;
+    display: flex;
+    align-items: center;
+ }
+ #t_section1_div1 img {
+    width: 300px;
+    margin-right: 100px;
+ }
