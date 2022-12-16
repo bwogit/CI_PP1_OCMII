@@ -464,6 +464,7 @@ h1, h2 {
     line-height: 150%;
 }
 #a_section1 img {
+   float: left;
    margin-left: 5px;
    width: 300px;
    margin-right: 150px;
@@ -479,10 +480,26 @@ h1, h2 {
     line-height: 150%;
 }
 #a_section1_div2 img {
+   float: right;
+   padding: 0 20px 20px 0;
    margin-left: 700px;
    width: 300px;
    margin-right: 150px;
-}  
+} 
+#a_section1_div3 {
+   padding-top: 10px;
+   width: 80%;
+   /* display: flex; */
+   align-items: center;
+   text-align: justify;
+   line-height: 150%;
+}
+
+#a_section1_div3 img {
+   margin-left: 700px;
+   width: 300px;
+   margin-right: 150px;
+}
  
  /*teams page*/
 
