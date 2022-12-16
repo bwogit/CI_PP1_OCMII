@@ -63,7 +63,8 @@ h1, h2 {
 
  .hr_header {
     width: 100%;
-    size: 20px;
+    size:"2";
+    color: black;
 
  }
 
