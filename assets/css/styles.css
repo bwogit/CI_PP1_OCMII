@@ -61,6 +61,12 @@ h1, h2 {
     
  }
 
+ .hr_header {
+    width: 100%;
+    size: 20px;
+
+ }
+
  /* hero image */
 
  #hero_envelope {
@@ -443,7 +449,7 @@ h1, h2 {
 
  #t_section1 {
     padding-top: 150px;
-    margin-left: 11%;
+    margin-left: 2%;
  }
  #t_section1_div1{
     padding-top: 10px;
@@ -452,15 +458,18 @@ h1, h2 {
     align-items: center;
     text-align: justify;
     line-height: 150%;
-    
+        
+ }
+ #t_section1_div1 p{
+    padding-right: 347px;
  }
  #t_section1_div1 img {
     margin-left: 5px;
     width: 300px;
-    margin-right: 100px;
+    margin-right: 150px;
  }
  #t_section1_div2{
-    padding-top: 10px;
+    padding-top: 100px;
     width: 80%;
     display: flex;
     align-items: center;
@@ -468,13 +477,16 @@ h1, h2 {
     line-height: 150%;
     
  }
+ #t_section1_div2 p{
+    margin-left: 100px;
+ }
 
  #t_section1_div2 img {
 
     float: left;
     padding-top: 15px;
     width: 300px;
-    margin-left: 100px;
+    margin-left: 130px;
  }
 
  #t_section1_div3{
