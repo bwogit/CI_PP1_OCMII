@@ -449,7 +449,8 @@ h1, h2 {
         padding-top: 522%;
       }
  }
- /*about page*/
+ 
+ /*about page about page about page*/
  #a_section1 {
     padding-top: 20px;
     margin-left: 1%;
@@ -457,10 +458,16 @@ h1, h2 {
 #a_section1_div1 {
     padding-top: 10px;
     width: 80%;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     text-align: justify;
     line-height: 150%;
+}
+#a_section1 img {
+   margin-left: 5px;
+   width: 300px;
+   margin-right: 150px;
+
 }
 
 #a_section1_div2 {
