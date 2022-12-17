@@ -243,7 +243,7 @@ h1, h2 {
   }
   
   .text {
-    color: white;
+    color: red;
     font-size: 40px;
     position: absolute;
     top: 50%;
@@ -533,7 +533,7 @@ h1, h2 {
  #t_section1_div1{
     padding-top: 10px;
     width: 80%;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     text-align: justify;
     line-height: 150%;
@@ -543,6 +543,7 @@ h1, h2 {
     /* padding-right: 347px; */
  }
  #t_section1_div1 img {
+   float: left;
     margin-left: 5px;
     width: 300px;
     margin-right: 150px;
@@ -550,8 +551,8 @@ h1, h2 {
  #t_section1_div1 .image:hover .overlay {
    opacity: 0.75;
    margin-left: 5px;
-    width: 300px;
-    margin-right: 150px;
+   width: 300px;
+   margin-right: 150px;
  }
  
  
