@@ -540,7 +540,7 @@ h1, h2 {
         
  }
  #t_section1_div1 p{
-    padding-right: 347px;
+    /* padding-right: 347px; */
  }
  #t_section1_div1 img {
     margin-left: 5px;
@@ -557,7 +557,7 @@ h1, h2 {
     
  }
  #t_section1_div2 p{
-    margin-left: 100px;
+    /* margin-left: 100px; */
  }
 
  #t_section1_div2 img {
@@ -586,6 +586,7 @@ h1, h2 {
  }
 
 
- #t_section1_div p {
+ #t_section1_div3 h3 {
+   margin-right: 10px;
 
  }
