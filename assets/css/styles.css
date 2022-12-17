@@ -193,15 +193,15 @@ h1, h2 {
 /* Animation for the main 3 technologies*/
 
 .image {
-    height: 100%; 
-    width: 100%; 
-    object-fit: contain;
-    opacity: 1;
-    display: block;
-    /* height: auto; */
-    transition: .5s ease;
-    backface-visibility: hidden;
-    position: relative;
+   height: 100%; 
+   width: 100%; 
+   object-fit: contain;
+   opacity: 1;
+   display: block;
+   /* height: auto; */
+   transition: .5s ease;
+   backface-visibility: hidden;
+   position: relative;
 }
 
 .image-about{
@@ -218,16 +218,16 @@ h1, h2 {
 }
 
 .overlay {
-    position: absolute;
-    /* top: 30px; */
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #3f7a78;
+   position: absolute;
+   /* top: 30px; */
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: #3f7a78;
   }
   
   #left_about:hover .overlay {
@@ -243,15 +243,15 @@ h1, h2 {
   }
   
   .text {
-    color: red;
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+   color: white;
+   font-size: 40px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
   }
 
   /* footer element*/
@@ -548,12 +548,13 @@ h1, h2 {
     width: 300px;
     margin-right: 150px;
  }
- #t_section1_div1 .image:hover .overlay {
+
+ /* #t_section1_div1 .image:hover .overlay {
    opacity: 0.75;
    margin-left: 5px;
    width: 300px;
    margin-right: 150px;
- }
+ } */
  
  
  #t_section1_div2{
@@ -594,6 +595,12 @@ h1, h2 {
     margin-right: 100px;
  }
 
+#t_section1_div3 .image:hover .overlay {
+   opacity: 0.75;
+   padding-top: 15px;
+   width: 300px;
+   margin-right: 100px;
+}
 
  #t_section1_div3 h3 {
    margin-right: 10px;
