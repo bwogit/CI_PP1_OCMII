@@ -524,7 +524,10 @@ h1, h2 {
    padding-left: 1%;
    list-style-type: none;
 }
+
+
  /*teams page team page team page*/
+
 
  #t_section1 {
     padding-top: 20px;
@@ -533,7 +536,7 @@ h1, h2 {
  #t_section1_div1{
     padding-top: 10px;
     width: 80%;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     text-align: justify;
     line-height: 150%;
@@ -577,7 +580,7 @@ h1, h2 {
  #t_section1_div3{
     padding-top: 10px;
     width: 80%;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     text-align: justify;
     line-height: 150%;
@@ -805,7 +808,7 @@ animation-fill-mode: forwards;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #3f7a78;
+  /* background-color: #3f7a78; */
  }
  
  #c_left_about:hover .overlay {
