@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat&display=swap');
 
 /* setting up padding border margin to 0 fro the whole site */
 * {
@@ -9,9 +10,9 @@
 }
 
 body{
-    font-weight: Lato, sans-serif;
+    font-weight: "Lexend", sans-serif;
     font-weight: 300;
-    color: grey;
+    color: #3f3f3f
 }
 
 
@@ -19,7 +20,7 @@ body{
 /* OCMii logo*/
 
 h1, h2 {
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: black;
 }
 
@@ -91,12 +92,13 @@ h1, h2 {
  }
 
  #hero {
+    margin-top: 180px;
     height: 600px;
     width: 100%;
     background: url("../images/OCMii_hero.png") no-repeat center center ;
     /* zoom animation*/
  animation-name: hero_zoom;
- animation-duration: 6s ;
+ animation-duration: 3s ;
  animation-fill-mode: forwards;
  }
 
@@ -121,8 +123,8 @@ h1, h2 {
     color: white;
     /* text-align: center; */
 
-    width: 400px;
-    height: 100px;
+    width: 30%;
+    height: 10%;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -745,6 +747,7 @@ animation-fill-mode: forwards; */
  /*Contact Us - Contact Us - Contact Us - Contact Us - Contact Us -*/
 
  #c_hero_envelope {
+   /* padding-bottom: 190px; */
    height: 600px;
    width: 100%;
    overflow: hidden;
@@ -753,10 +756,11 @@ animation-fill-mode: forwards; */
 }
 
 #c_hero {
+   margin-top: 110px;
    height: 600px;
    width: 100%;
    background: url("/assets/images/OCMii-contactUs.jpg") no-repeat center center ;
-   /* zoom animation*/
+   /* zoom animation */
 animation-name: hero_zoom;
 animation-duration: 1s ;
 animation-fill-mode: forwards;
