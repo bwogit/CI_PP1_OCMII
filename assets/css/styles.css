@@ -531,6 +531,7 @@ h1, h2 {
 #a_section1_div4 li {
    padding-left: 1%;
    list-style-type: none;
+   margin: 0 0 5px 0;
 }
 
 
@@ -647,8 +648,6 @@ animation-fill-mode: forwards; */
    width: 33%;
    height: auto;
    float: right;
-   /* background: url("../images/OCMii-Motor.jpg") no-repeat center center; */
-   /* background-size: cover; */
    position: relative;
 }
 #e_center_about{
@@ -656,8 +655,6 @@ animation-fill-mode: forwards; */
    width: 33%;
    height: auto;
    margin: 0 auto;
-   /* background:url("../images/OCMii_AI.png.jpg") no-repeat center center;  */
-   /* background-size: cover; */
    position: relative;
 }
 
@@ -670,7 +667,6 @@ animation-fill-mode: forwards; */
   object-fit: contain;
   opacity: 1;
   display: block;
-  /* height: auto; */
   transition: .5s ease;
   backface-visibility: hidden;
   position: relative;
@@ -697,13 +693,14 @@ animation-fill-mode: forwards; */
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 0.89;
   transition: .5s ease;
   /* background-color: #3f7a78; */
+  /* background-color: currentColor; */
  }
  
  #e_left_about:hover .overlay {
-   opacity: 0.75;
+   opacity: 0.8;
  }
 
  #e_center_about:hover .overlay {
@@ -712,8 +709,22 @@ animation-fill-mode: forwards; */
 
  #e_right_about:hover .overlay {
    opacity: 0.75;
-   filter: blur(15px);
+   
  }
+
+ .e_text {
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+   line-height: 155%;
+   
+  }
  
  .text {
   color: white;
@@ -833,21 +844,5 @@ animation-fill-mode: forwards;
    
  }
  
- .e_text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  line-height: 155%;
-  /* -webkit-filter: blur(1px);
-		-moz-filter: blur(1px);
-		-ms-filter: blur(1px);
-		-o-filter: blur(1px);
-		filter: blur(1px); */
- }
+ 
  
