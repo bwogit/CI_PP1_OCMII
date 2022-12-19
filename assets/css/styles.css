@@ -819,9 +819,9 @@ animation-fill-mode: forwards;
    opacity: 0.75;
  }
  
- .text {
+ .e_text {
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -829,4 +829,6 @@ animation-fill-mode: forwards;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  line-height: 155%;
  }
+ 
