@@ -713,6 +713,7 @@ animation-fill-mode: forwards; */
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  
  }
 
 
@@ -817,6 +818,7 @@ animation-fill-mode: forwards;
 
  #c_right_about:hover .overlay {
    opacity: 0.75;
+   
  }
  
  .e_text {
@@ -830,5 +832,10 @@ animation-fill-mode: forwards;
   transform: translate(-50%, -50%);
   text-align: center;
   line-height: 155%;
+  /* -webkit-filter: blur(1px);
+		-moz-filter: blur(1px);
+		-ms-filter: blur(1px);
+		-o-filter: blur(1px);
+		filter: blur(1px); */
  }
  
