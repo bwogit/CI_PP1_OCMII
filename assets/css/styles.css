@@ -95,7 +95,7 @@ h2 {
  }
 
  #hero {
-    margin-top: 180px;
+    margin-top: 100px;
     height: 600px;
     width: 100%;
     background: url("../images/OCMii_hero.png") no-repeat center center ;
@@ -110,10 +110,10 @@ h2 {
  /*TRansition(zoom)effect for hero image */
  @keyframes hero_zoom {
     from{
-        transform: scale(1.1);
+        transform: scale(1);
     }
     to {
-        transform: scale(1.4);
+        transform: scale(1.1);
     }
  }
 
