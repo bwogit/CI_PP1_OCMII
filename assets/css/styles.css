@@ -15,11 +15,33 @@ body{
     color: #3f3f3f
 }
 
+/* footer element*/
+footer {
+   height: 50px;
+   
+ }
+
+ footer > ul{
+   text-align: center;
+   text-decoration: none;
+}
+  footer li {
+   display: inline;
+  }
+footer i{
+   font-size: 160%;
+   margin: 2%;
+   padding: 5%;
+   color: black
+} 
+footer i:hover {
+   color: red;
+}
 
 
 /* OCMii logo*/
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Montserrat", sans-serif;
     color: black;
 }
@@ -84,6 +106,8 @@ h2 {
 
  }
 
+ /* Index Page Index Page Index Page Index Page Index Page Index Page */
+
  /* hero image */
 
  #hero_envelope {
@@ -104,9 +128,7 @@ h2 {
  animation-duration: 3s ;
  animation-fill-mode: forwards;
  }
-
  
-
  /*TRansition(zoom)effect for hero image */
  @keyframes hero_zoom {
     from{
@@ -188,17 +210,13 @@ h2 {
     width: 33%;
     height: auto;
     float: right;
-    /* background: url("../images/OCMii-Motor.jpg") no-repeat center center; */
-    /* background-size: cover; */
-    position: relative;
+   position: relative;
 }
 #center_about{
     /* padding-top: 30px; */
     width: 33%;
     height: auto;
     margin: 0 auto;
-    /* background:url("../images/OCMii_AI.png.jpg") no-repeat center center;  */
-    /* background-size: cover; */
     position: relative;
 }
 
@@ -211,12 +229,11 @@ h2 {
    object-fit: contain;
    opacity: 1;
    display: block;
-   /* height: auto; */
    transition: .5s ease-out;
    backface-visibility: hidden;
    position: relative;
 }
-
+/* 
 .image-about{
     padding-top: 20%;
     padding-left: 3%;
@@ -228,7 +245,7 @@ h2 {
     margin-right: 4em;
     overflow: hidden;
     color: silver;
-}
+} */
 
 .overlay {
    position: absolute;
@@ -241,6 +258,18 @@ h2 {
    opacity: 0;
    transition: .5s ease;
    background-color: #3f7a78;
+  }
+
+  .text {
+   color: white;
+   font-size: 40px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
   }
   
   #left_about:hover .overlay {
@@ -255,215 +284,11 @@ h2 {
     opacity: 0.75;
   }
   
-  .text {
-   color: white;
-   font-size: 40px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   -webkit-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
-   text-align: center;
-  }
+  
 
-  /* footer element*/
-  footer {
-    height: 50px;
-    
-  }
+  
 
-  footer > ul{
-    text-align: center;
-    text-decoration: none;
- }
-   footer li {
-    display: inline;
-   }
- footer i{
-    font-size: 160%;
-    margin: 2%;
-    padding: 5%;
-    color: black
- } 
- footer i:hover {
-    color: red;
- }
-
- .image-about{
-    font-size: 100%;
-    font-family: Montserrat, sans-serif;
-    font-weight: bolder;
-    color: rgb(17, 13, 13);
-    /* text-align: center; */
-
-
-
-    padding-top: 40px;
-    padding-left: 20px;
-
-    background-color:rgba(231, 222, 222, 0);
-
-    top: 30px;
-    /* left:15px ; */
-    position: absolute;
- }
-
- #first-para{
-    float: right;
-    position: absolute;
-    padding-left:40%;
-    padding-top: 7%;
-    font-size:large;
- }
- .image-about2{
-    font-size: 100%;
-    font-family: Montserrat, sans-serif;
-    font-weight: bolder;
-    color: rgb(17, 13, 13);
-    /* text-align: center; */
-
-    position: relative;
-    
-    padding-top: 500px;
-    padding-left: 70%;
-
-    background-color:rgba(231, 222, 222, 0);
-
-    top:100px;
-    /* left:15px ; */
-   
- }
-
- #second-para{
-    text-align: right;
-    float: left;
-    position: absolute;
-    padding-left: 20%;
-    padding-top: 34%;
-    font-size:large;
- }
-
- .image-about3{
-    font-size: 100%;
-    font-family: Montserrat, sans-serif;
-    font-weight: bolder;
-    color: rgb(17, 13, 13);
-    /* text-align: center; */
-
-    position: relative;
-    
-    padding-top: 150px;
-    padding-left: 2%;
-
-    background-color:rgba(231, 222, 222, 0);
-
-    top:100px;
-    /* left:15px ; */
-   
- }
-
- #third-para{
-    float: right;
-    position: absolute;
-    padding-left:40%;
-    padding-top: 15%;
-    font-size:large;
- }
-
- @media screen and (max-width: 600px){
-    .image-about{
-        font-size: 100%;
-        font-family: Montserrat, sans-serif;
-        font-weight: bolder;
-        color: rgb(17, 13, 13);
-        /* text-align: center; */
-    
-        width: 286%;
-        height: 87%;
-      
-        padding-top: 40px;
-       
-    
-        background-color:rgba(231, 222, 222, 0);
-    
-        top: 30px;
-        /* left:15px ; */
-        position: absolute;
-     }
-    
-     #first-para{
-        
-        position: absolute;
-       
-        padding-top: 91%;
-        font-size:large;
-     }
-     .image-about2{
-        font-size: 100%;
-        font-family: Montserrat, sans-serif;
-        font-weight: bolder;
-        color: rgb(17, 13, 13);
-        /* text-align: center; */
-    
-        position: absolute;
-        
-        padding-top: 151%;
-        width: 82%;
-        height: 87%;
-    
-        background-color:rgba(231, 222, 222, 0);
-    
-        top:100px;
-        /* left:15px ; */
-       
-     }
-    
-     #second-para{
-        text-align: left;
-        float: left;
-        position: absolute;
-        
-        padding-right:20%;
-        padding-top: 108%;
-        font-size:large;
-     }
-    
-     .image-about3{
-        font-size: 100%;
-        font-family: Montserrat, sans-serif;
-        font-weight: bolder;
-        color: rgb(17, 13, 13);
-        /* text-align: center; */
-    
-        position: absolute;
-        
-        padding-top: 253%;
-        width: 286%;
-    height: 87%;
-    
-        background-color:rgba(231, 222, 222, 0);
-    
-        top:100px;
-        /* left:15px ; */
-       
-     }
-    
-     #third-para{
-        float: right;
-        position: absolute;
-        
-        padding-top: 349%;
-        font-size:large;
-     }
-
-     footer {
-        height: 50px;
-        padding-top: 522%;
-      }
- }
- 
- /*about page about page about page*/
+ /*------------------------about page about page about page--------------------------------------*/
  #a_section1 {
     padding-top: 20px;
     margin-left: 1%;
@@ -540,7 +365,7 @@ h2 {
 }
 
 
- /*teams page team page team page*/
+ /*--------------------teams page team page team page-----------------------------------------*/
 
 
  #t_section1 {
@@ -628,7 +453,7 @@ h2 {
 
  }
 
- /*Events - Events - Events - Events - Events - Events - */
+ /*------------------Events - Events - Events - Events - Events - Events-------------------- */
  #e_hero_envelope {
    height: 600px;
    width: 100%;
@@ -645,6 +470,13 @@ h2 {
 /* animation-name: hero_zoom;
 animation-duration: 1s ;
 animation-fill-mode: forwards; */
+}
+
+.circle{
+   border: 1px solid;
+   border-radius: 50%;
+   z-index: 2;
+   /* background-color: */
 }
 
 #e_left_about {
@@ -674,7 +506,7 @@ animation-fill-mode: forwards; */
 
 /* Animation for the main 3 technologies*/
 
-.image {
+.e_image {
   height: 100%; 
   width: 100%; 
   object-fit: contain;
@@ -683,22 +515,10 @@ animation-fill-mode: forwards; */
   transition: .5s ease;
   backface-visibility: hidden;
   position: relative;
+  border-radius: 50%;
 }
 
-.image-about{
-   padding-top: 20%;
-   padding-left: 3%;
-}
-
-.divider {
-   margin-top: 2em;
-   margin-left: 4em;
-   margin-right: 4em;
-   overflow: hidden;
-   color: silver;
-}
-
-.overlay {
+.e_overlay {
   position: absolute;
   /* top: 30px; */
   bottom: 0;
@@ -708,19 +528,20 @@ animation-fill-mode: forwards; */
   width: 100%;
   opacity: 0.89;
   transition: .5s ease;
-  /* background-color: #3f7a78; */
+  border-radius: 50%;
+  background-color: #3f7a78;
   /* background-color: currentColor; */
  }
  
- #e_left_about:hover .overlay {
-   opacity: 0.8;
- }
-
- #e_center_about:hover .overlay {
+ #e_left_about:hover .e_overlay {
    opacity: 0.75;
  }
 
- #e_right_about:hover .overlay {
+ #e_center_about:hover .e_overlay {
+   opacity: 0.75;
+ }
+
+ #e_right_about:hover .e_overlay {
    opacity: 0.75;
    
  }
@@ -739,18 +560,6 @@ animation-fill-mode: forwards; */
    
   }
  
- .text {
-  color: white;
-  font-size: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  
- }
 
  /*Video*/
 
@@ -812,8 +621,6 @@ animation-fill-mode: forwards;
    width: 33%;
    height: auto;
    float: right;
-   /* background: url("../images/OCMii-Motor.jpg") no-repeat center center; */
-   /* background-size: cover; */
    position: relative;
 }
 #c_center_about{
@@ -821,13 +628,11 @@ animation-fill-mode: forwards;
    width: 33%;
    height: auto;
    margin: 0 auto;
-   /* background:url("../images/OCMii_AI.png.jpg") no-repeat center center;  */
-   /* background-size: cover; */
    position: relative;
 }
 
 
-/* Animation for the main 3 technologies*/
+/* 
 
 .image {
   height: 100%; 
@@ -835,7 +640,7 @@ animation-fill-mode: forwards;
   object-fit: contain;
   opacity: 1;
   display: block;
-  /* height: auto; */
+ 
   transition: .5s ease;
   backface-visibility: hidden;
   position: relative;
@@ -856,7 +661,7 @@ animation-fill-mode: forwards;
 
 .overlay {
   position: absolute;
-  /* top: 30px; */
+  
   bottom: 0;
   left: 0;
   right: 0;
@@ -864,8 +669,8 @@ animation-fill-mode: forwards;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  /* background-color: #3f7a78; */
- }
+  
+ } */
  
  #c_left_about:hover .overlay {
    opacity: 0.75;
@@ -882,3 +687,176 @@ animation-fill-mode: forwards;
  
  
  
+ /*---------------------------------------------------------------------------------------*/
+ .image-about{
+   font-size: 100%;
+   font-family: Montserrat, sans-serif;
+   font-weight: bolder;
+   color: rgb(17, 13, 13);
+   /* text-align: center; */
+
+
+
+   padding-top: 40px;
+   padding-left: 20px;
+
+   background-color:rgba(231, 222, 222, 0);
+
+   top: 30px;
+   /* left:15px ; */
+   position: absolute;
+}
+
+#first-para{
+   float: right;
+   position: absolute;
+   padding-left:40%;
+   padding-top: 7%;
+   font-size:large;
+}
+.image-about2{
+   font-size: 100%;
+   font-family: Montserrat, sans-serif;
+   font-weight: bolder;
+   color: rgb(17, 13, 13);
+   /* text-align: center; */
+
+   position: relative;
+   
+   padding-top: 500px;
+   padding-left: 70%;
+
+   background-color:rgba(231, 222, 222, 0);
+
+   top:100px;
+   /* left:15px ; */
+  
+}
+
+#second-para{
+   text-align: right;
+   float: left;
+   position: absolute;
+   padding-left: 20%;
+   padding-top: 34%;
+   font-size:large;
+}
+
+.image-about3{
+   font-size: 100%;
+   font-family: Montserrat, sans-serif;
+   font-weight: bolder;
+   color: rgb(17, 13, 13);
+   /* text-align: center; */
+
+   position: relative;
+   
+   padding-top: 150px;
+   padding-left: 2%;
+
+   background-color:rgba(231, 222, 222, 0);
+
+   top:100px;
+   /* left:15px ; */
+  
+}
+
+#third-para{
+   float: right;
+   position: absolute;
+   padding-left:40%;
+   padding-top: 15%;
+   font-size:large;
+}
+
+@media screen and (max-width: 600px){
+   .image-about{
+       font-size: 100%;
+       font-family: Montserrat, sans-serif;
+       font-weight: bolder;
+       color: rgb(17, 13, 13);
+       /* text-align: center; */
+   
+       width: 286%;
+       height: 87%;
+     
+       padding-top: 40px;
+      
+   
+       background-color:rgba(231, 222, 222, 0);
+   
+       top: 30px;
+       /* left:15px ; */
+       position: absolute;
+    }
+   
+    #first-para{
+       
+       position: absolute;
+      
+       padding-top: 91%;
+       font-size:large;
+    }
+    .image-about2{
+       font-size: 100%;
+       font-family: Montserrat, sans-serif;
+       font-weight: bolder;
+       color: rgb(17, 13, 13);
+       /* text-align: center; */
+   
+       position: absolute;
+       
+       padding-top: 151%;
+       width: 82%;
+       height: 87%;
+   
+       background-color:rgba(231, 222, 222, 0);
+   
+       top:100px;
+       /* left:15px ; */
+      
+    }
+   
+    #second-para{
+       text-align: left;
+       float: left;
+       position: absolute;
+       
+       padding-right:20%;
+       padding-top: 108%;
+       font-size:large;
+    }
+   
+    .image-about3{
+       font-size: 100%;
+       font-family: Montserrat, sans-serif;
+       font-weight: bolder;
+       color: rgb(17, 13, 13);
+       /* text-align: center; */
+   
+       position: absolute;
+       
+       padding-top: 253%;
+       width: 286%;
+   height: 87%;
+   
+       background-color:rgba(231, 222, 222, 0);
+   
+       top:100px;
+       /* left:15px ; */
+      
+    }
+   
+    #third-para{
+       float: right;
+       position: absolute;
+       
+       padding-top: 349%;
+       font-size:large;
+    }
+
+    footer {
+       height: 50px;
+       padding-top: 522%;
+     }
+}
