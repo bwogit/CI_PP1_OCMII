@@ -512,7 +512,7 @@ animation-fill-mode: forwards; */
   object-fit: contain;
   opacity: 1;
   display: block;
-  transition: .5s ease;
+  transition: .5s ease-out;
   backface-visibility: hidden;
   position: relative;
   border-radius: 50%;
@@ -526,7 +526,7 @@ animation-fill-mode: forwards; */
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.89;
+  opacity: 0;
   transition: .5s ease;
   border-radius: 50%;
   background-color: #3f7a78;
