@@ -515,7 +515,7 @@ animation-fill-mode: forwards; */
   transition: .5s ease-out;
   backface-visibility: hidden;
   position: relative;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .e_overlay {
