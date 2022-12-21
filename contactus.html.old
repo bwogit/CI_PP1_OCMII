@@ -44,31 +44,6 @@
         
     </header>
     <hr class="hr_header">
-
-    <div class="form_section">
-        <form action="https://formdump.codeinstitute.net/" method="POST">
-            <div class="form">
-                <p>We would really appreciate any suggestions or comments, please leave us a message.</p>
-                <br>
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form">
-                <label for="email">Email address</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form">
-                <label for="message" >Message</label>
-                <textarea id="message" rows="7" name="message" required></textarea>
-            </div>
-            <input type="submit" value="Submit">
-        </form>
-
-    </div>
-
-    
-    
-    <div ></div>
     <section id="c_hero_envelope">
         <br>
         <h2>Contact Us</h2>
