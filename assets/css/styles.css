@@ -725,7 +725,8 @@ input[type=submit] {
    height: auto;
    border: 1px solid;
    margin-left:  2%;
-     
+   border-radius: 5px;
+      
    
 }
 
@@ -737,6 +738,7 @@ input[type=submit] {
    margin-left:  2%;
    text-align: center;
    background-color: #f2f2f2;
+   border-radius: 5px;
 }
 
 .titles {
@@ -756,6 +758,8 @@ input[type=submit] {
  
 
 @media screen and (max-width: 600px){
+   
+   
    #menu a {
       text-decoration: none; /*remove underline in menu*/
       color: inherit;
@@ -794,9 +798,10 @@ input[type=submit] {
    
   }
 
-  #overlay_botom {
+  #overlay_bottom {
    font-size: 70%;
    right: 80px;
+   width: 280px;
    
   }
 
@@ -807,4 +812,53 @@ input[type=submit] {
    height: 150px;
    padding-top: 9%;
 }  
+
+/*Following is for About page*/
+*{
+   margin: 0 auto;
+   padding: 0;
+   border: none;
+}
+
+#a_section1_div1 img {
+   float: left;
+   margin-left: 5px;
+   margin-right: 50px;
+   width: 230px;
+ }
+ #a_section1_div2 img {
+   float: right;
+   margin-left: 50px;
+   width: 230px;
+   
+ }
+ #a_section1_div3 img {
+   float: left;
+   margin-left: 5px;
+   width: 230px;
+   margin-right: 50px;
+ }
+ #a_section1_div4 img {
+   float: right;
+   margin-left: 50px;
+   width: 230px;
+ }
+
+ /*Contact us*/
+ #contacts {
+   display: block;
+ }
+
+ .form_section {
+   width: 85%;
+}
+#details{
+   width: 95%;
+   border-radius: 5px;
+}
+#map{
+   width: 92%;
+   margin-left: 4%;
+   
+}
 }
