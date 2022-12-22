@@ -15,6 +15,17 @@ body{
     color: #3f3f3f
 }
 
+.header_envelope{
+   background-color: grey;
+   height: 80px;
+}
+
+/* nav {
+   align-items: inherit;
+   display: flex;
+   padding-left: 49%;
+} */
+
 /* footer element*/
 footer {
    height: 50px;
@@ -93,6 +104,10 @@ h2 {
    text-align: center;
    padding-top: 20px;
    padding-bottom: 10px;
+ }
+
+ .footer_envelope {
+   height: 80px;
  }
 
  .hr_header {
@@ -234,19 +249,7 @@ h2 {
    backface-visibility: hidden;
    position: relative;
 }
-/* 
-.image-about{
-    padding-top: 20%;
-    padding-left: 3%;
-}
 
-.divider {
-    margin-top: 2em;
-    margin-left: 4em;
-    margin-right: 4em;
-    overflow: hidden;
-    color: silver;
-} */
 
 .overlay {
    position: absolute;
@@ -303,6 +306,7 @@ h2 {
     line-height: 150%;
 }
 #a_section1_div1 img {
+   
    float: left;
    margin-left: 5px;
    width: 360px;
@@ -311,7 +315,7 @@ h2 {
 }
 
 #a_section1_div2 {
-   padding-top: 10px;
+   padding-top: 40px;
    width: 80%;
    /* display: flex; */
    align-items: center;
@@ -739,177 +743,68 @@ input[type=submit] {
    flex: 0 0 auto;
    width: 75%;
 }
+
+/*------------responsive------------------*/
+
+
+
+
+
+
  
  /*---------------------------------------------------------------------------------------*/
- .image-about{
-   font-size: 100%;
-   font-family: Montserrat, sans-serif;
-   font-weight: bolder;
-   color: rgb(17, 13, 13);
-   /* text-align: center; */
-
-
-
-   padding-top: 40px;
-   padding-left: 20px;
-
-   background-color:rgba(231, 222, 222, 0);
-
-   top: 30px;
-   /* left:15px ; */
-   position: absolute;
-}
-
-#first-para{
-   float: right;
-   position: absolute;
-   padding-left:40%;
-   padding-top: 7%;
-   font-size:large;
-}
-.image-about2{
-   font-size: 100%;
-   font-family: Montserrat, sans-serif;
-   font-weight: bolder;
-   color: rgb(17, 13, 13);
-   /* text-align: center; */
-
-   position: relative;
-   
-   padding-top: 500px;
-   padding-left: 70%;
-
-   background-color:rgba(231, 222, 222, 0);
-
-   top:100px;
-   /* left:15px ; */
-  
-}
-
-#second-para{
-   text-align: right;
-   float: left;
-   position: absolute;
-   padding-left: 20%;
-   padding-top: 34%;
-   font-size:large;
-}
-
-.image-about3{
-   font-size: 100%;
-   font-family: Montserrat, sans-serif;
-   font-weight: bolder;
-   color: rgb(17, 13, 13);
-   /* text-align: center; */
-
-   position: relative;
-   
-   padding-top: 150px;
-   padding-left: 2%;
-
-   background-color:rgba(231, 222, 222, 0);
-
-   top:100px;
-   /* left:15px ; */
-  
-}
-
-#third-para{
-   float: right;
-   position: absolute;
-   padding-left:40%;
-   padding-top: 15%;
-   font-size:large;
-}
+ 
 
 @media screen and (max-width: 600px){
-   .image-about{
-       font-size: 100%;
-       font-family: Montserrat, sans-serif;
-       font-weight: bolder;
-       color: rgb(17, 13, 13);
-       /* text-align: center; */
-   
-       width: 286%;
-       height: 87%;
-     
-       padding-top: 40px;
+   #menu a {
+      text-decoration: none; /*remove underline in menu*/
+      color: inherit;
+   }
+  
+   #menu a:hover {
+      color: red;
       
-   
-       background-color:rgba(231, 222, 222, 0);
-   
-       top: 30px;
-       /* left:15px ; */
-       position: absolute;
-    }
-   
-    #first-para{
-       
-       position: absolute;
+   }
+   .current_page {
+  
+      /* border-bottom: 1px solid red; */
+      font-size: 87%;
+      font-family: Montserrat, sans-serif;
+      color: black;
       
-       padding-top: 91%;
-       font-size:large;
-    }
-    .image-about2{
-       font-size: 100%;
-       font-family: Montserrat, sans-serif;
-       font-weight: bolder;
-       color: rgb(17, 13, 13);
-       /* text-align: center; */
-   
-       position: absolute;
-       
-       padding-top: 151%;
-       width: 82%;
-       height: 87%;
-   
-       background-color:rgba(231, 222, 222, 0);
-   
-       top:100px;
-       /* left:15px ; */
-      
-    }
-   
-    #second-para{
-       text-align: left;
-       float: left;
-       position: absolute;
-       
-       padding-right:20%;
-       padding-top: 108%;
-       font-size:large;
-    }
-   
-    .image-about3{
-       font-size: 100%;
-       font-family: Montserrat, sans-serif;
-       font-weight: bolder;
-       color: rgb(17, 13, 13);
-       /* text-align: center; */
-   
-       position: absolute;
-       
-       padding-top: 253%;
-       width: 286%;
-   height: 87%;
-   
-       background-color:rgba(231, 222, 222, 0);
-   
-       top:100px;
-       /* left:15px ; */
-      
-    }
-   
-    #third-para{
-       float: right;
-       position: absolute;
-       
-       padding-top: 349%;
-       font-size:large;
-    }
+   }
 
-    footer {
-       height: 50px;
-       padding-top: 522%;
-     }
+  #hero_envelope {
+      height: 600px;
+      width: 110%;
+      overflow: hidden;
+      position: relative;
+  
+   }
+
+   #logo {
+      float: left;
+      font-size: 230%;
+      letter-spacing: 5px;
+      margin-left: 3px;
+  }
+  #overlay_top {
+   font-size: 70%;
+   padding-top: 65px;
+   
+  }
+
+  #overlay_botom {
+   font-size: 70%;
+   right: 80px;
+   
+  }
+
+  #ocmii_ethos {
+   height: 180px;
+ } 
+ footer {
+   height: 150px;
+   padding-top: 9%;
+}  
 }
