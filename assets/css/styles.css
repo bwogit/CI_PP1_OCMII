@@ -726,9 +726,30 @@ input[type=submit] {
    border: 1px solid;
    margin-left:  2%;
    border-radius: 5px;
-      
-   
 }
+
+
+
+ 
+
+.map_responsive{
+   overflow:hidden;
+   padding-bottom:56.25%;
+   position:relative;
+   height:0;
+
+}
+
+.map_responsive iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+}
+
+
+
 
 #details {
    margin-top: 20px;
@@ -748,19 +769,31 @@ input[type=submit] {
 
 /*------------responsive------------------*/
 
-
-
-
-
-
  
- /*---------------------------------------------------------------------------------------*/
- 
+ @media screen and (max-width: 1104px){
+ #contacts {
+   display: block;
+ }
+ .form_section {
+   margin-left: 6%;
+   width: 46%;
+}
+#map{
+   width: 50%;
+   margin-left: 6%;
 
-@media screen and (max-width: 600px){
+}
+#details {
+   width: 50%;
+   margin-left: 6%;
+}
+ }
+
+@media screen and (max-width: 640px){
    
    
    #menu a {
+      font-size: 75%;
       text-decoration: none; /*remove underline in menu*/
       color: inherit;
    }
@@ -844,6 +877,16 @@ input[type=submit] {
    width: 230px;
  }
 
+ /*team Page*/
+ #t_section1_div1 {
+   display:block;
+ }
+ #t_section1_div2 {
+   display:block;
+ }
+ #t_section1_div3 {
+   display:block;
+ }
  /*Contact us*/
  #contacts {
    display: block;
@@ -853,7 +896,7 @@ input[type=submit] {
    width: 85%;
 }
 #details{
-   width: 95%;
+   width: 90%;
    border-radius: 5px;
 }
 #map{
