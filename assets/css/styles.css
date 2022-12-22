@@ -478,23 +478,23 @@ h2 {
 
 #e_left_about {
    /* padding-top: 30px ; */
-   width: 33%;
+   width: 30%;
    height: auto;
    float: left;
    position: relative;
       
 }
 
-#e_right_about{
+#e_right_about {
    /* padding-top: 30px; */
-   width: 33%;
+   width: 30%;
    height: auto;
    float: right;
    position: relative;
 }
-#e_center_about{
+#e_center_about {
    /* padding-top: 30px; */
-   width: 33%;
+   width: 30%;
    height: auto;
    margin: 0 auto;
    position: relative;
@@ -512,7 +512,8 @@ h2 {
   transition: .5s ease-out;
   backface-visibility: hidden;
   position: relative;
-  /* border-radius: 50%; */
+  border-radius: 50%;
+  border: 1px solid;
 }
 
 .e_overlay {
@@ -524,7 +525,7 @@ h2 {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   background-color: rgb(85, 80, 108);
   
  }
@@ -628,47 +629,6 @@ animation-fill-mode: forwards;
    margin: 0 auto;
    position: relative;
 }
-
-
-/* 
-
-.image {
-  height: 100%; 
-  width: 100%; 
-  object-fit: contain;
-  opacity: 1;
-  display: block;
- 
-  transition: .5s ease;
-  backface-visibility: hidden;
-  position: relative;
-}
-
-.image-about{
-   padding-top: 20%;
-   padding-left: 3%;
-}
-
-.divider {
-   margin-top: 2em;
-   margin-left: 4em;
-   margin-right: 4em;
-   overflow: hidden;
-   color: silver;
-}
-
-.overlay {
-  position: absolute;
-  
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  
- } */
  
  #c_left_about:hover .overlay {
    opacity: 0.75;
@@ -682,12 +642,11 @@ animation-fill-mode: forwards;
    opacity: 0.75;
  }
 
-
  .form_section {
    margin-left: 4%;
    margin-top: 20px;
    width: 40%;
-   height: 510px;
+   height: auto;
    border-radius: 5px;
    background-color: #f2f2f2;
    padding: 20px;
@@ -804,7 +763,7 @@ input[type=submit] {
    }
    .current_page {
   
-      /* border-bottom: 1px solid red; */
+      
       font-size: 87%;
       font-family: Montserrat, sans-serif;
       color: black;
@@ -893,7 +852,8 @@ input[type=submit] {
  }
 
  .form_section {
-   width: 85%;
+   width: 84%;
+   margin-left: 4%;
 }
 #details{
    width: 90%;
@@ -903,5 +863,21 @@ input[type=submit] {
    width: 92%;
    margin-left: 4%;
    
+}
+}
+
+@media screen and (max-width: 521px){
+   #menu {
+      font-size: 80%;
+   }
+   
+   #menu a {
+      font-size:  75%;
+      text-decoration: none; /*remove underline in menu*/
+      color: inherit;
+   }
+   .form_section {
+      width: 77%;
+      margin-left: 4%;
 }
 }
