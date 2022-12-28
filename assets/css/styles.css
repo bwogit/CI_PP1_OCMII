@@ -16,15 +16,61 @@ body{
 }
 
 .header_envelope{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
    background-color: grey;
-   height: 80px;
+   /* height: 80px; */
 }
 
-/* nav {
-   align-items: inherit;
-   display: flex;
-   padding-left: 49%;
-} */
+/* OCMii logo*/
+
+h1, h2, h3 {
+   font-family: "Montserrat", sans-serif;
+   color: black;
+}
+h2 {
+  text-align: center;
+}
+
+#logo {
+  /* display: inline-block; */
+   /* float: left; */
+   font-size: 280%;
+   letter-spacing: 5px;
+   margin-left: 10px;
+   color: whitesmoke;
+       
+}
+/*chance from id to class for testing only*/
+.menu {
+  display: flex;
+  gap: 1em;
+   font-size: 110%;
+   font-family: Montserrat, sans-serif;
+   color: whitesmoke;
+   }
+
+#menu, #logo{
+   line-height: 75px;
+}    
+
+.menu li {
+   /* float: right; */
+   list-style-type: none;
+   margin-right: 30px; 
+}
+.menu a {
+   text-decoration: none; /*remove underline in menu*/
+   color: inherit;
+}
+
+.menu a:hover {
+   color: red;
+   
+}
+
 
 /* footer element*/
 footer {
@@ -48,53 +94,8 @@ footer i{
 footer i:hover {
    color: red;
 }
-
-
-/* OCMii logo*/
-
-h1, h2, h3 {
-    font-family: "Montserrat", sans-serif;
-    color: black;
-}
-h2 {
-   text-align: center;
-}
-
-#logo {
-    float: left;
-    font-size: 280%;
-    letter-spacing: 5px;
-    margin-left: 10px;
-    color: whitesmoke;
-        
-}
-
-#menu {
-    font-size: 110%;
-    font-family: Montserrat, sans-serif;
-    color: whitesmoke;
-    }
-#menu, #logo{
-    line-height: 75px;
-}    
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px; /* to put space between each li element */
-}
- #menu a {
-    text-decoration: none; /*remove underline in menu*/
-    color: inherit;
- }
-
- #menu a:hover {
-    color: red;
-    
- }
  
  .current_page {
-    
     /* border-bottom: 1px solid red; */
     font-weight: bold;
     font-size: larger;
@@ -119,7 +120,6 @@ h2 {
     margin: auto;              
     background-color:black;
     height: 1px;
-
  }
 
  /* Index Page Index Page Index Page Index Page Index Page Index Page */
@@ -960,3 +960,42 @@ body {
  a:hover {
    text-decoration: underline;
  }
+
+
+ /*--------------------------------------------------------------------------------------------------*/
+ input[type=checkbox]{
+   display: none;
+} 
+
+.hamburger {
+   display: none;
+   font-size: 24px;
+   user-select: none;
+}
+
+@media (max-width: 768px) {
+.menu { 
+   display:none;
+   position: relative;
+   /* background-color:teal; */
+   right: 0;
+   left: 0;
+   text-align: center;
+   padding: 16px 0;
+   }
+.menu li:hover {
+   display: inline-block;
+   /* background-color:#4c9e9e; */
+   transition: 0.3s ease;
+   }
+.menu li + li {
+   margin-top: 12px;
+    }
+
+input[type=checkbox]:checked ~ .menu{
+   display: block;
+   }
+.hamburger {
+   display: block;
+   }
+}
