@@ -47,9 +47,9 @@ h2 {
 .menu {
   display: flex;
   gap: 1em;
-   font-size: 110%;
+   font-size: 140%;
    font-family: Montserrat, sans-serif;
-   color: whitesmoke;
+   color: white;
    }
 
 #menu, #logo{
