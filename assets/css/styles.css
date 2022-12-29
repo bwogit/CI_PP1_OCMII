@@ -88,7 +88,7 @@ footer {
 footer i{
    font-size: 160%;
    margin: 2%;
-   padding: 5%;
+   padding: 4%;
    color: black
 } 
 footer i:hover {
@@ -96,7 +96,7 @@ footer i:hover {
 }
  
  .current_page {
-    /* border-bottom: 1px solid red; */
+   
     font-weight: bold;
     font-size: larger;
     
@@ -911,6 +911,7 @@ input[type=submit] {
    margin-left: 4%;
    
 }
+
 }
 
 @media screen and (max-width: 521px){
