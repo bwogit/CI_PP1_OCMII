@@ -169,8 +169,6 @@ footer i:hover {
 
     padding-top: 40px;
     padding-left: 10px;
-
-    /* background-color:rgba(231, 222, 222, 0); */
     background-color:rgba(241,109, 107, .5);
 
     top: 90px;
@@ -471,8 +469,9 @@ footer i:hover {
 
 #e_hero {
    height: 600px;
-   width: 100%;
+   /* width: 100%; */
    background: url("../images/e_hero.jpg") no-repeat center center ;
+   background-size:100%;
    
 }
 
@@ -483,7 +482,7 @@ footer i:hover {
    font-weight: bolder;
    color: white;
    
-   width: 30%;
+   width: 49%;
    height: 10%;
 
    padding-top: 40px;
@@ -491,8 +490,27 @@ footer i:hover {
 
    background-color:rgba(241,109, 107, .5);
 
-   top: 30px;
+   top: 40%;
+   left: auto;
    
+   position: absolute;
+}
+#e_overlay_bottom {
+
+   font-size: 100%;
+   font-family: Montserrat, sans-serif;
+   color: white;
+
+   width: 400px;
+   height: 100px;
+
+   padding-top: 40px;
+   padding-left: 10px;
+
+   background-color:rgba(241,109, 107, .5);
+
+   bottom: 30px;
+   right:15px ;
    position: absolute;
 }
 
@@ -768,6 +786,8 @@ input[type=submit] {
 }
  }
 
+ 
+
 @media screen and (max-width: 640px){
    
    
@@ -797,6 +817,13 @@ input[type=submit] {
       position: relative;
   
    }
+/* 
+#e_hero {
+   height: auto;
+   width: 100%;
+   background: url("../images/e_hero.jpg") no-repeat contain center;
+   
+} */
 
    #logo {
       float: left;
