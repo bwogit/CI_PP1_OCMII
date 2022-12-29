@@ -86,7 +86,7 @@ footer {
    display: inline;
   }
 footer i{
-   font-size: 160%;
+   font-size: 140%;
    margin: 2%;
    padding: 4%;
    color: black
@@ -613,7 +613,6 @@ footer i:hover {
  }
  #vid video{
    width: 50%;
-   /* display:block; */
    height: auto;
    top: 0;
  }
@@ -946,6 +945,19 @@ input[type=submit] {
 }
 }
 
+@media screen and (max-width: 320px) {
+
+#e_hero {
+   height: 180px
+}
+#e_hero_envelope {
+   height: 174px;
+}
+#e_overlay_top {
+top: 5%;
+height: 53%;
+   }
+}
 
 /*--------------------------------------------------------404-----------------------------------------------------------------*/
 body {
