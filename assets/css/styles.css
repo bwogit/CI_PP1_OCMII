@@ -800,7 +800,18 @@ input[type=submit] {
       
      }
    }
-
+@media (max-width: 768px) {
+   .form_section {
+      width: 82%;
+   }
+   #map {
+      width: 87%;
+   }
+      
+   #details {
+      width: 87%;
+   }
+}
  
 
 @media screen and (max-width: 640px){
@@ -940,7 +951,7 @@ input[type=submit] {
       color: inherit;
    }
    .form_section {
-      width: 77%;
+      width: 79%;
       margin-left: 4%;
 }
 }
