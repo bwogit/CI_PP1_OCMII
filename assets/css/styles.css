@@ -21,8 +21,7 @@ body{
    justify-content: space-between;
    padding: 20px;
    background-color: rgb(65, 65, 65)
-   /* height: 80px; */
-}
+   }
 
 /* OCMii logo*/
 
@@ -35,19 +34,17 @@ h2 {
 }
 
 #logo {
-  /* display: inline-block; */
-   /* float: left; */
    font-size: 280%;
    letter-spacing: 5px;
    margin-left: 10px;
    color: whitesmoke;
        
 }
-/*chance from id to class for testing only*/
+
 .menu {
   display: flex;
   gap: 1em;
-   font-size: 140%;
+   font-size: 160%;
    font-family: Montserrat, sans-serif;
    color: white;
    }
@@ -57,7 +54,6 @@ h2 {
 }    
 
 .menu li {
-   /* float: right; */
    list-style-type: none;
    margin-right: 30px; 
 }
@@ -1064,5 +1060,6 @@ input[type=checkbox]:checked ~ .menu{
    }
 .hamburger {
    display: block;
+   color: white;
    }
 }
