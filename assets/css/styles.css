@@ -67,6 +67,16 @@ h2 {
    
 }
 
+input[type=checkbox]{
+   display: none;
+} 
+
+.hamburger {
+   display: none;
+   font-size: 24px;
+   user-select: none;
+}
+
 
 /* footer element*/
 footer {
@@ -118,7 +128,7 @@ footer i:hover {
     height: 1px;
  }
 
- /* Index Page Index Page Index Page Index Page Index Page Index Page */
+ /* -------------Index Page Index Page Index Page Index Page Index Page Index Page -----------*/
 
  /* hero image */
 
@@ -135,7 +145,7 @@ footer i:hover {
     height: 600px;
     width: 100%;
     background: url("../images/index_hero.png") no-repeat center center ;
-    /* zoom animation*/
+    /* zoom animation below*/
  animation-name: hero_zoom;
  animation-duration: 3s ;
  animation-fill-mode: forwards;
@@ -158,8 +168,7 @@ footer i:hover {
     font-family: Montserrat, sans-serif;
     font-weight: bolder;
     color: white;
-    /* text-align: center; */
-
+    
     width: 30%;
     height: 20%;
 
@@ -168,9 +177,9 @@ footer i:hover {
     background-color:rgba(241,109, 107, .5);
 
     top: 90px;
-    /* left:15px ; */
-    position: absolute;
+   position: absolute;
 }
+
 #overlay_bottom {
 
     font-size: 100%;
@@ -197,18 +206,15 @@ footer i:hover {
 /*Ocmii areas of interest and technologies*/
 
 #technologies {
-    /* padding: 75px 0; */
     text-align: center;
 }
 
 #ocmii_ethos {
     height: 350px;
-    /* padding: 50px 0; */
     
 }
 
 #left_about {
-    /* padding-top: 30px ; */
     width: 33%;
     height: auto;
     float: left;
@@ -217,7 +223,6 @@ footer i:hover {
 }
 
 #right_about{
-    /* padding-top: 30px; */
     width: 33%;
     height: auto;
     float: right;
@@ -225,7 +230,6 @@ footer i:hover {
 }
 
 #center_about{
-    /* padding-top: 30px; */
     width: 33%;
     height: auto;
     margin: 0 auto;
@@ -296,11 +300,10 @@ footer i:hover {
 #a_section1_div1 {
     padding-top: 10px;
     width: 80%;
-    /* display: flex; */
     align-items: center;
-    /* text-align: justify; */
     line-height: 150%;
 }
+
 #a_section1_div1 img {
    
    float: left;
@@ -313,27 +316,25 @@ footer i:hover {
 #a_section1_div2 {
    padding-top: 40px;
    width: 80%;
-   /* display: flex; */
    align-items: center;
-   /* text-align: justify; */
    line-height: 150%;
 }
+
 #a_section1_div2 ul  {
    list-style-type: none;
    padding-left: 10px;
 }
+
 #a_section1_div2 img {
    float: right;
    margin-left: 50px;
    width: 360px;
-   /* margin-right: 150px; */
    } 
+
 #a_section1_div3 {
    padding-top: 40px;
    width: 80%;
-   /* display: flex; */
    align-items: center;
-   /* text-align: justify; */
    line-height: 150%;
 }
 
@@ -347,9 +348,7 @@ footer i:hover {
 #a_section1_div4 {
    padding-top: 40px;
    width: 80%;
-   /* display: flex; */
    align-items: center;
-   /* text-align: justify; */
    line-height: 150%;
    
 }
@@ -465,7 +464,6 @@ footer i:hover {
 
 #e_hero {
    height: 600px;
-   /* width: 100%; */
    background: url("../images/e_hero.jpg") no-repeat center center ;
    background-size:100%;
    
@@ -511,7 +509,6 @@ footer i:hover {
 }
 
 #e_left_about {
-   /* padding-top: 30px ; */
    width: 30%;
    height: auto;
    float: left;
@@ -520,22 +517,20 @@ footer i:hover {
 }
 
 #e_right_about {
-   /* padding-top: 30px; */
    width: 30%;
    height: auto;
    float: right;
    position: relative;
 }
+
 #e_center_about {
-   /* padding-top: 30px; */
    width: 30%;
    height: auto;
    margin: 0 auto;
    position: relative;
 }
 
-
-/* Animation for the main 3 technologies*/
+/* Animation for the main 3 Events*/
 
 .e_image {
   height: 100%; 
@@ -619,8 +614,8 @@ footer i:hover {
 
  /*Contact Us - Contact Us - Contact Us - Contact Us - Contact Us -*/
 
- #c_hero_envelope {
-   /* padding-bottom: 190px; */
+ /* #c_hero_envelope {
+  
    height: 600px;
    width: 100%;
    overflow: hidden;
@@ -633,14 +628,12 @@ footer i:hover {
    height: 600px;
    width: 100%;
    background: url("/assets/images/OCMii-contactUs.jpg") no-repeat center center ;
-   /* zoom animation */
 animation-name: hero_zoom;
 animation-duration: 1s ;
 animation-fill-mode: forwards;
 }
 
 #c_left_about {
-   /* padding-top: 30px ; */
    width: 33%;
    height: auto;
    float: left;
@@ -649,14 +642,12 @@ animation-fill-mode: forwards;
 }
 
 #c_right_about{
-   /* padding-top: 30px; */
    width: 33%;
    height: auto;
    float: right;
    position: relative;
 }
 #c_center_about{
-   /* padding-top: 30px; */
    width: 33%;
    height: auto;
    margin: 0 auto;
@@ -673,7 +664,7 @@ animation-fill-mode: forwards;
 
  #c_right_about:hover .overlay {
    opacity: 0.75;
- }
+ } */
 
  .form_section {
    margin-left: 4%;
@@ -720,10 +711,7 @@ input[type=submit] {
    border-radius: 5px;
 }
 
-
-
  
-
 .map_responsive{
    overflow:hidden;
    padding-bottom:56.25%;
@@ -759,7 +747,7 @@ input[type=submit] {
    width: 75%;
 }
 
-/*------------responsive------------------*/
+/*-------------------------------responsive section---------------------------------------------*/
 
  
  @media screen and (max-width: 1104px){
@@ -1026,31 +1014,23 @@ body {
 
 
  /*--------------------------------------------------------------------------------------------------*/
- input[type=checkbox]{
-   display: none;
-} 
 
-.hamburger {
-   display: none;
-   font-size: 24px;
-   user-select: none;
-}
 
 @media (max-width: 768px) {
 .menu { 
    display:none;
    position: relative;
-   /* background-color:teal; */
    right: 0;
    left: 0;
    text-align: center;
    padding: 16px 0;
    }
+
 .menu li:hover {
    display: inline-block;
-   /* background-color:#4c9e9e; */
    transition: 0.3s ease;
    }
+
 .menu li + li {
    margin-top: 12px;
     }
