@@ -569,6 +569,64 @@ input[type=submit] {
    width: 75%;
 }
 
+/*---------------------- 404.html-----------------------------------------------------------*/
+body {
+   background-color:lightgrey;
+ }
+  
+ .mainbox {
+   background-color: lightgrey;
+   margin: auto;
+   height: 600px;
+   width: 600px;
+   position: relative;
+ }
+ 
+   .err {
+     color: #ffffff;
+     font-family: 'Nunito Sans', sans-serif;
+     font-size: 11rem;
+     position:absolute;
+     left: 20%;
+     top: 8%;
+   }
+ 
+ .far {
+   position: absolute;
+   font-size: 8.5rem;
+   left: 42%;
+   top: 15%;
+   color: #ffffff;
+ }
+ 
+  .err2 {
+     color: #ffffff;
+     font-family: 'Nunito Sans', sans-serif;
+     font-size: 11rem;
+     position:absolute;
+     left: 68%;
+     top: 8%;
+   }
+ 
+ .msg {
+     text-align: center;
+     font-family: 'Nunito Sans', sans-serif;
+     font-size: 1.6rem;
+     position:absolute;
+     left: 16%;
+     top: 45%;
+     width: 75%;
+   }
+ 
+ a {
+   text-decoration: none;
+   color: white;
+ }
+ 
+ a:hover {
+   text-decoration: underline;
+ }
+
 /*-------------------------------responsive section---------------------------------------------*/
  @media screen and (max-width: 1104px){
  #contacts {
@@ -776,70 +834,29 @@ input[type=submit] {
    height: 174px;
 }
 #e_overlay_top {
-top: 5%;
-height: 53%;
+   top: 5%;
+   height: 53%;
+}
+/*Below is for 404 page*/
+.err {
+   font-size: 10rem;
+   left: 0%;
+   }
+.far {
+   font-size: 7.5rem;
+   left: 16%;
+   }
+.err2 {
+   font-size: 10rem;
+   left: 35%;
+   }
+.msg {
+   width: 26%;
+   font-size: 1.6rem;
    }
 }
 
-
-
 /*--------------------------------------------------------404-----------------------------------------------------------------*/
-body {
-   background-color:lightgrey;
- }
- 
- .mainbox {
-   background-color: lightgrey;
-   margin: auto;
-   height: 600px;
-   width: 600px;
-   position: relative;
- }
- 
-   .err {
-     color: #ffffff;
-     font-family: 'Nunito Sans', sans-serif;
-     font-size: 11rem;
-     position:absolute;
-     left: 20%;
-     top: 8%;
-   }
- 
- .far {
-   position: absolute;
-   font-size: 8.5rem;
-   left: 42%;
-   top: 15%;
-   color: #ffffff;
- }
- 
-  .err2 {
-     color: #ffffff;
-     font-family: 'Nunito Sans', sans-serif;
-     font-size: 11rem;
-     position:absolute;
-     left: 68%;
-     top: 8%;
-   }
- 
- .msg {
-     text-align: center;
-     font-family: 'Nunito Sans', sans-serif;
-     font-size: 1.6rem;
-     position:absolute;
-     left: 16%;
-     top: 45%;
-     width: 75%;
-   }
- 
- a {
-   text-decoration: none;
-   color: white;
- }
- 
- a:hover {
-   text-decoration: underline;
- }
 
  /* end of file*/
 
