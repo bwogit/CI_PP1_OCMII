@@ -142,9 +142,10 @@ footer i:hover {
 
  #hero {
     margin-top: 100px;
-    height: 600px;
+    height: 600px;;
     width: 100%;
     background: url("../images/index_hero.png") no-repeat center center ;
+    background-size: 100%;
     /* zoom animation below*/
  animation-name: hero_zoom;
  animation-duration: 3s ;
@@ -795,6 +796,15 @@ input[type=submit] {
    #details {
       width: 87%;
    }
+
+   #hero {
+      margin-top: 0px;
+    }
+
+   #overlay_bottom {
+      bottom: 170px;
+      right: 180px;
+      }
 }
  
 
@@ -821,19 +831,13 @@ input[type=submit] {
    }
 
   #hero_envelope {
-      height: 600px;
+      height: 500px;
       width: 110%;
       overflow: hidden;
       position: relative;
   
    }
-/* 
-#e_hero {
-   height: auto;
-   width: 100%;
-   background: url("../images/e_hero.jpg") no-repeat contain center;
-   
-} */
+
 
    #logo {
       float: left;
@@ -841,18 +845,14 @@ input[type=submit] {
       letter-spacing: 5px;
       margin-left: 3px;
   }
-  #overlay_top {
-   font-size: 70%;
-   padding-top: 65px;
-   
-  }
 
   #overlay_bottom {
-   font-size: 70%;
-   right: 80px;
-   width: 280px;
-   
-  }
+   bottom: 150px;
+   right: 11%;
+    width: 260px;
+    height: 80px;
+    font-size: 70%;
+ }
 
   #ocmii_ethos {
    height: 180px;
@@ -941,6 +941,22 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 320px) {
+
+/* #hero_envelope {
+   height: 265px;
+   margin-top: -150px;
+}
+    
+#hero {
+   margin-top: -5px;
+}
+#overlay_bottom {
+   font-size: 60%;
+   width: 200px;
+   height: 420px;
+   bottom: 120px;
+   right: 88px;
+}    */
 
 #e_hero {
    height: 180px
