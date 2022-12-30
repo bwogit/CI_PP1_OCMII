@@ -134,7 +134,7 @@ footer i:hover {
     margin-top: 100px;
     height: 600px;
     width: 100%;
-    background: url("../images/OCMii_hero.png") no-repeat center center ;
+    background: url("../images/index_hero.png") no-repeat center center ;
     /* zoom animation*/
  animation-name: hero_zoom;
  animation-duration: 3s ;
