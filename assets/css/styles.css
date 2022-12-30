@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat&display=swap');
 
 /* setting up padding border margin to 0 for the whole site */
+
+/* below code is common to all pages same header and footer elements*/
 * {
     margin: 0;
     padding: 0;
     border: none;
-
 }
 
 body{
@@ -29,6 +30,7 @@ h1, h2, h3 {
    font-family: "Montserrat", sans-serif;
    color: black;
 }
+
 h2 {
   text-align: center;
 }
@@ -38,7 +40,6 @@ h2 {
    letter-spacing: 5px;
    margin-left: 10px;
    color: whitesmoke;
-       
 }
 
 .menu {
@@ -57,6 +58,7 @@ h2 {
    list-style-type: none;
    margin-right: 30px; 
 }
+
 .menu a {
    text-decoration: none; /*remove underline in menu*/
    color: inherit;
@@ -64,9 +66,9 @@ h2 {
 
 .menu a:hover {
    color: red;
-   
 }
 
+/* hamburger menu hack*/
 input[type=checkbox]{
    display: none;
 } 
@@ -76,7 +78,6 @@ input[type=checkbox]{
    font-size: 24px;
    user-select: none;
 }
-
 
 /* footer element*/
 footer {
@@ -118,6 +119,8 @@ footer i:hover {
    height: 80px;
  }
 
+ /* to separate between divs*/
+
  .hr_header {
     border: 0;
     clear:both;
@@ -137,7 +140,6 @@ footer i:hover {
     width: 100%;
     overflow: hidden;
     position: relative;
-
  }
 
  #hero {
@@ -151,7 +153,6 @@ footer i:hover {
  animation-duration: 3s ;
  animation-fill-mode: forwards;
  }
- 
  /*TRansition(zoom)effect for hero image */
  @keyframes hero_zoom {
     from{
@@ -212,7 +213,6 @@ footer i:hover {
 
 #ocmii_ethos {
     height: 350px;
-    
 }
 
 #left_about {
@@ -220,7 +220,6 @@ footer i:hover {
     height: auto;
     float: left;
     position: relative;
-       
 }
 
 #right_about{
@@ -237,8 +236,7 @@ footer i:hover {
     position: relative;
 }
 
-
-/* Animation for the main 3 technologies*/
+/* transition for the main 3 technologies*/
 
 .image {
    height: 100%; 
@@ -250,8 +248,6 @@ footer i:hover {
    backface-visibility: hidden;
    position: relative;
 }
-
-
 .overlay {
    position: absolute;
    /* top: 30px; */
@@ -288,11 +284,6 @@ footer i:hover {
   #right_about:hover .overlay {
     opacity: 0.75;
   }
-  
-  
-
-  
-
  /*------------------------about page about page about page--------------------------------------*/
  #a_section1 {
     padding-top: 20px;
@@ -311,7 +302,6 @@ footer i:hover {
    margin-left: 5px;
    width: 360px;
    margin-right: 50px;
-
 }
 
 #a_section1_div2 {
@@ -351,7 +341,6 @@ footer i:hover {
    width: 80%;
    align-items: center;
    line-height: 150%;
-   
 }
 
 #a_section1_div4 img {
@@ -365,109 +354,18 @@ footer i:hover {
    margin: 0 0 5px 0;
 }
 
-
- /*--------------------teams page team page team page-----------------------------------------*/
-
-
- #t_section1 {
-    padding-top: 20px;
-    margin-left: 1%;
- }
- #t_section1_div1{
-    padding-top: 10px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    line-height: 150%;
-        
- }
- 
- #t_section1_div1 img {
-   float: left;
-    margin-left: 5px;
-    width: 300px;
-    margin-right: 150px;
- }
-
- #t_section1_div1 .image:hover .overlay {
-   opacity: 0.75;
-   margin-left: 5px;
-   width: 300px;
-   margin-right: 150px;
- }
- 
- 
- #t_section1_div2{
-    padding-top: 100px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    line-height: 150%;
-    
- }
-
-
- #t_section1_div2 img {
-
-    float: left;
-    padding-top: 15px;
-    width: 300px;
-    margin-left: 130px;
- }
-
- 
-#t_section1_div2 .image:hover .overlay {
-   opacity: 0.75;
-   padding-top: 15px;
-   width: 300px;
-   margin-right: 100px;
-}
-
- #t_section1_div3{
-    padding-top: 10px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    line-height: 150%;
-    
- }
-
- #t_section1_div3 img {
-    float: left;
-    padding-top: 15px;
-    width: 300px;
-    margin-right: 100px;
- }
-
-#t_section1_div3 .image:hover .overlay {
-   opacity: 0.75;
-   padding-top: 15px;
-   width: 300px;
-   margin-right: 100px;
-}
-
- #t_section1_div3 h3 {
-   margin-right: 10px;
-
- }
-
  /*------------------Events - Events - Events - Events - Events - Events-------------------- */
  #e_hero_envelope {
    height: 600px;
    width: 100%;
    overflow: hidden;
    position: relative;
-
 }
 
 #e_hero {
    height: 600px;
    background: url("../images/e_hero.jpg") no-repeat center center ;
    background-size:100%;
-   
 }
 
 #e_overlay_top {
@@ -479,15 +377,11 @@ footer i:hover {
    
    width: 49%;
    height: 10%;
-
    padding-top: 40px;
    padding-left: 10px;
-
    background-color:rgba(241,109, 107, .5);
-
    top: 40%;
    left: auto;
-   
    position: absolute;
 }
 #e_overlay_bottom {
@@ -498,12 +392,9 @@ footer i:hover {
 
    width: 400px;
    height: 100px;
-
    padding-top: 40px;
    padding-left: 10px;
-
    background-color:rgba(241,109, 107, .5);
-
    bottom: 30px;
    right:15px ;
    position: absolute;
@@ -514,7 +405,6 @@ footer i:hover {
    height: auto;
    float: left;
    position: relative;
-      
 }
 
 #e_right_about {
@@ -530,7 +420,6 @@ footer i:hover {
    margin: 0 auto;
    position: relative;
 }
-
 /* Animation for the main 3 Events*/
 
 .e_image {
@@ -574,7 +463,6 @@ footer i:hover {
    
   }
  
- 
  #e_left_about:hover .e_overlay {
    opacity: 0.75;
  }
@@ -587,13 +475,9 @@ footer i:hover {
    opacity: 0.75;
    
  }
-
- 
-
- /*Video*/
+ /*Video element on event page*/
 
  #vid {
-
    width: 100%;
    position: relative;
    display: block;
@@ -601,72 +485,14 @@ footer i:hover {
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: 25%;
-   
  }
+
  #vid video{
    width: 50%;
    height: auto;
    top: 0;
  }
- 
-
-
-
-
  /*Contact Us - Contact Us - Contact Us - Contact Us - Contact Us -*/
-
- /* #c_hero_envelope {
-  
-   height: 600px;
-   width: 100%;
-   overflow: hidden;
-   position: relative;
-
-}
-
-#c_hero {
-   margin-top: 110px;
-   height: 600px;
-   width: 100%;
-   background: url("/assets/images/OCMii-contactUs.jpg") no-repeat center center ;
-animation-name: hero_zoom;
-animation-duration: 1s ;
-animation-fill-mode: forwards;
-}
-
-#c_left_about {
-   width: 33%;
-   height: auto;
-   float: left;
-   position: relative;
-      
-}
-
-#c_right_about{
-   width: 33%;
-   height: auto;
-   float: right;
-   position: relative;
-}
-#c_center_about{
-   width: 33%;
-   height: auto;
-   margin: 0 auto;
-   position: relative;
-}
- 
- #c_left_about:hover .overlay {
-   opacity: 0.75;
- }
-
- #c_center_about:hover .overlay {
-   opacity: 0.75;
- }
-
- #c_right_about:hover .overlay {
-   opacity: 0.75;
- } */
-
  .form_section {
    margin-left: 4%;
    margin-top: 20px;
@@ -679,7 +505,6 @@ animation-fill-mode: forwards;
  }
  
  input[type=text], input[type=email], select, textarea {
-
    width: 100%; 
    padding: 12px;
    display: block;
@@ -699,10 +524,11 @@ input[type=submit] {
    border-radius: 4px;
    cursor: pointer;
 }
+
 #contacts{
    display: flex;
-   
 }
+
 #map {
    margin-top: 20px;
    width: 100%;
@@ -711,14 +537,12 @@ input[type=submit] {
    margin-left:  2%;
    border-radius: 5px;
 }
-
  
 .map_responsive{
    overflow:hidden;
    padding-bottom:56.25%;
    position:relative;
    height:0;
-
 }
 
 .map_responsive iframe{
@@ -728,9 +552,6 @@ input[type=submit] {
    width:100%;
    position:absolute;
 }
-
-
-
 
 #details {
    margin-top: 20px;
@@ -749,8 +570,6 @@ input[type=submit] {
 }
 
 /*-------------------------------responsive section---------------------------------------------*/
-
- 
  @media screen and (max-width: 1104px){
  #contacts {
    display: block;
@@ -762,7 +581,6 @@ input[type=submit] {
 #map{
    width: 50%;
    margin-left: 6%;
-
 }
 #details {
    width: 50%;
@@ -770,7 +588,7 @@ input[type=submit] {
 }
  }
 
- @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
    .e_text {
       color: white;
       font-size: 10px;
@@ -806,11 +624,37 @@ input[type=submit] {
       right: 180px;
       }
 }
- 
+
+
+@media (max-width: 768px) {
+   .menu { 
+      display:none;
+      position: relative;
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+      }
+   
+   .menu li:hover {
+      display: inline-block;
+      transition: 0.3s ease;
+      }
+   
+   .menu li + li {
+      margin-top: 12px;
+       }
+   
+   input[type=checkbox]:checked ~ .menu{
+      display: block;
+      }
+   .hamburger {
+      display: block;
+      color: white;
+      }
+   }
 
 @media screen and (max-width: 640px){
-   
-   
    #menu a {
       font-size: 75%;
       text-decoration: none; /*remove underline in menu*/
@@ -827,7 +671,6 @@ input[type=submit] {
       font-size: 87%;
       font-family: Montserrat, sans-serif;
       color: black;
-      
    }
 
   #hero_envelope {
@@ -835,9 +678,7 @@ input[type=submit] {
       width: 110%;
       overflow: hidden;
       position: relative;
-  
    }
-
 
    #logo {
       float: left;
@@ -861,7 +702,6 @@ input[type=submit] {
    height: 150px;
    padding-top: 9%;
 }  
-
 /*Following is for About page*/
 *{
    margin: 0 auto;
@@ -892,17 +732,7 @@ input[type=submit] {
    margin-left: 50px;
    width: 230px;
  }
-
- /*team Page*/
- #t_section1_div1 {
-   display:block;
- }
- #t_section1_div2 {
-   display:block;
- }
- #t_section1_div3 {
-   display:block;
- }
+ 
  /*Contact us*/
  #contacts {
    display: block;
@@ -919,16 +749,13 @@ input[type=submit] {
 #map{
    width: 92%;
    margin-left: 4%;
-   
 }
-
 }
 
 @media screen and (max-width: 521px){
    #menu {
       font-size: 80%;
    }
-   
    #menu a {
       font-size:  75%;
       text-decoration: none; /*remove underline in menu*/
@@ -942,22 +769,6 @@ input[type=submit] {
 
 @media screen and (max-width: 320px) {
 
-/* #hero_envelope {
-   height: 265px;
-   margin-top: -150px;
-}
-    
-#hero {
-   margin-top: -5px;
-}
-#overlay_bottom {
-   font-size: 60%;
-   width: 200px;
-   height: 420px;
-   bottom: 120px;
-   right: 88px;
-}    */
-
 #e_hero {
    height: 180px
 }
@@ -969,6 +780,8 @@ top: 5%;
 height: 53%;
    }
 }
+
+
 
 /*--------------------------------------------------------404-----------------------------------------------------------------*/
 body {
@@ -1028,34 +841,5 @@ body {
    text-decoration: underline;
  }
 
+ /* end of file*/
 
- /*--------------------------------------------------------------------------------------------------*/
-
-
-@media (max-width: 768px) {
-.menu { 
-   display:none;
-   position: relative;
-   right: 0;
-   left: 0;
-   text-align: center;
-   padding: 16px 0;
-   }
-
-.menu li:hover {
-   display: inline-block;
-   transition: 0.3s ease;
-   }
-
-.menu li + li {
-   margin-top: 12px;
-    }
-
-input[type=checkbox]:checked ~ .menu{
-   display: block;
-   }
-.hamburger {
-   display: block;
-   color: white;
-   }
-}
