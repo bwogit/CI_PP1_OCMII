@@ -69,4 +69,30 @@
 - Intuitive navigation system
 - Each picture is able to create a very profound emotion
 - Simple way to get in touch with the business
-- The message can be real at a glance irrespective of the device used.
+- The message can be read at a glance irrespective of the device used.
+
+### User Stories
+
+#### First-time User
+
+1. As a first time user, , I want to know what OCMii is about
+2. As a first time user, I want to know what OCMii wants to achieve
+3. As a first time user, I want to know about how OCMii is going to achieve their goal
+
+### Returning User
+
+4.	As a returning user, I want to see the past and next events and workshops
+5.	As a returning user, I want to be kept informed of latest announcements
+6.	As a returning user, I want to be able to leave comments and suggestions
+7.	As a returning user, I want to find latest news on social media
+8.	As a returning user, I want to know who is behind OCMii
+9.	As a returning user, I want to know how to get to OCMii
+
+#### Site Owner 
+
+10.	As the site owner, I want users to know about upcoming events
+11.	As the site owner, I want users to get to feel they are part of the OCMii
+12.	As the site owner, I want our users to be able to contact us
+13.	As the site owner, I want our users to be able to stay in touch with us
+
+
