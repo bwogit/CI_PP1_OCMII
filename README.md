@@ -95,4 +95,29 @@
 12.	As the site owner, I want our users to be able to contact us
 13.	As the site owner, I want our users to be able to stay in touch with us
 
+## Design
+
+### Design Choices
+
+I designed the site as a means to empower the Caribbean native both at home and abroad. Too long has the tragic history of the region shaped our lives! Each picture is telling a specific story and there are almost no words required. 
+Furthermore, each image description will enhance the feeling of empowerment the user gets when using the website! It is about technology, future, embracing the change and control our destiny. 
+
+### Colour
+
+The website is sober and non-aggressive. The site is purposely neutral with dark grey and light grey being the common colours. The advantage of this choice of colours is to make the pictures jump. The focus of teh user is always on the pictures and information the websites provides.
+
+### Fonts
+
+I used Lexend for the body and Montserrat for headings. Both fonts are dyslexia friendly. 
+
+### Structure
+
+The structure of the page follows a well-known recognizable pattern. Logo on the left and navigation bar on the right.
+The website consists of four separate pages:
+- A Main page with a picture that show the sun rising on a new Caribbean that has embraced new technologies
+- An About page which explains the goals of the OCMii
+- An Events page with upcoming events and description
+- A Contact Us page with a form, a google map and address information to contact the OCMii
+
+### Wireframes
 
