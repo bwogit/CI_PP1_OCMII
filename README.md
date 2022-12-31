@@ -85,15 +85,14 @@
 5.	As a returning user, I want to be kept informed of latest announcements
 6.	As a returning user, I want to be able to leave comments and suggestions
 7.	As a returning user, I want to find latest news on social media
-8.	As a returning user, I want to know who is behind OCMii
-9.	As a returning user, I want to know how to get to OCMii
+8.	As a returning user, I want to know how to get to OCMii
 
 #### Site Owner 
 
-10.	As the site owner, I want users to know about upcoming events
-11.	As the site owner, I want users to get to feel they are part of the OCMii
-12.	As the site owner, I want our users to be able to contact us
-13.	As the site owner, I want our users to be able to stay in touch with us
+9.	As the site owner, I want users to know about upcoming events
+10.	As the site owner, I want users to get to feel they are part of the OCMii
+11.	As the site owner, I want our users to be able to contact us
+12.	As the site owner, I want our users to be able to stay in touch with us
 
 ## Design
 
@@ -113,15 +112,16 @@ I used Lexend for the body and Montserrat for headings. Both fonts are dyslexia 
 ### Structure
 
 The structure of the page follows a well-known recognizable pattern. Logo on the left and navigation bar on the right.
-The website consists of four separate pages:
+The website consists of five separate pages:
 - A Main page with a picture that show the sun rising on a new Caribbean that has embraced new technologies
 - An About page which explains the goals of the OCMii
 - An Events page with upcoming events and description
 - A Contact Us page with a form, a google map and address information to contact the OCMii
+- A 404 page with redirect to main page
 
 ### Wireframes
 
-<details><summary>Home</summary>
+<details><summary>Main</summary>
 <img src="assets/docs/wireframes/wireframes_main.jpg">
 </details>
 <details><summary>About</summary>
@@ -164,5 +164,22 @@ The page consists of four pages and twelve features
 - The user knows which pages they are on by looking at the navigation bar.
 - The navbar is fully responsive ans switches to a hamburger menu.
 - When a user is on a page the link is displayed in bold in the navbar
+- User story covered 1, 2, 3
 
 ![Logo and navbar](assets/docs/features/features_logonav.jpg)
+
+### Hero Image (Main)
+
+- This is a text to image generated image by using a tool called Midjourney. This represents the sun rising on the Caribbean. A new dawn for the Caribbean Region. 
+- the zoom effect when the page is loaded gives the user the imporession that they are immersed in the story. This is a very important feature as it is designed to empower the user. 
+- user story covered : 10
+
+![Hero Image](assets/docs/features/features_hero.jpg)
+
+### Hero Image (Event)
+
+- This website was built on the premise that a picture is worth a thousnd words. This feature is there to empower our young Caribbean people.
+- OCMii wants to break away from the colonial leagacy whereby the future four our young people is nly concentrated in hotels, holiday, sea activities. 
+- the pictures depicts a group of young people whoare are embracing their future.
+
+![Hero Image Events](assets/docs/features/features_hero_2.jpg)
