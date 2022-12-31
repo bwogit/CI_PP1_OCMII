@@ -205,7 +205,7 @@ footer i:hover {
     color: white;
 }
 
-/*Ocmii areas of interest and technologies*/
+/*--------------------------------Ocmii echnologies------------------------------*/
 
 #technologies {
     text-align: center;
@@ -492,7 +492,7 @@ footer i:hover {
    height: auto;
    top: 0;
  }
- /*Contact Us - Contact Us - Contact Us - Contact Us - Contact Us -*/
+ /*-----------Contact Us - Contact Us - Contact Us - Contact Us - Contact Us ----------*/
  .form_section {
    margin-left: 4%;
    margin-top: 20px;
@@ -569,7 +569,7 @@ input[type=submit] {
    width: 75%;
 }
 
-/*---------------------- 404.html-----------------------------------------------------------*/
+/*----------------------------------------- 404.html----------------------------------------*/
 body {
    background-color:lightgrey;
  }
@@ -856,7 +856,7 @@ body {
    }
 }
 
-/*--------------------------------------------------------404-----------------------------------------------------------------*/
+
 
  /* end of file*/
 

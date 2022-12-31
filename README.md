@@ -1,4 +1,4 @@
-# OCMii
+# OCMii Opening the Caribbean to innovation & investment
 (developper : Jeremie Sandot)
 
 ![responsive image](/assets/docs/responsive.JPG)
@@ -29,19 +29,19 @@
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
+    5. [Device testing](#testing-the-website)
     6. [Browser compatibility](#browser-compatibility)
-    7. [Testing user stories](#testing-user_stories)
-8. [Gremlins](#Gremlins)
+    7. [Testing user stories](#testing-user-stories)
+8. [bugs](#bugs)
 9. [Deployment](#deployment)
-10. [Credit where credit is due](#credit_where_credit_is_due)
+10. [Credit where credit is due](#credits)
 11. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
 ### User Goals
 - To be informed of the ambitions of OCMii
-- For the user to emancipate themselves from colonial vision of what is the Caribbean (beach, sand, coconut)
+- To emancipate themselves from colonial idea of teh Caribbean (beach, sand, coconut)
 - To be empowered
 - To be able to join us vibrant community and stay informed of future development
 - Participate in OCMii’s events and workshops
@@ -67,7 +67,7 @@
 
 - A picture is worth a thousand words
 - Intuitive navigation system
-- Each picture is able to create a very profound emotion
+- Each supporting picture creates a very profound emotion
 - Simple way to get in touch with the business
 - The message can be read at a glance irrespective of the device used.
 
@@ -75,7 +75,7 @@
 
 #### First-time User
 
-1. As a first time user, , I want to know what OCMii is about
+1. As a first time user, I want to know what OCMii is about
 2. As a first time user, I want to know what OCMii wants to achieve
 3. As a first time user, I want to know about how OCMii is going to achieve their goal
 
@@ -105,7 +105,7 @@ Furthermore, each image description will enhance the feeling of empowerment the 
 
 ### Colour
 
-The website is sober and non-aggressive. The site is purposely neutral with dark grey and light grey being the common colours. The advantage of this choice of colours is to make the pictures jump. The focus of teh user is always on the pictures and information the websites provides.
+The website is sober and non-aggressive. The site is purposely neutral with dark grey and light grey being the common colours. The advantage of this choice of colours is to make the pictures jump. The focus of the user is always on the pictures and information the websites provides.
 
 ### Fonts
 
@@ -114,12 +114,12 @@ I used Lexend for the body and Montserrat for headings. Both fonts are dyslexia 
 ### Structure
 
 The structure of the page follows a well-known recognizable pattern. Logo on the left and navigation bar on the right.
-The website consists of five separate pages:
+The website consists of four separate pages:
 - A Main page with a picture that show the sun rising on a new Caribbean that has embraced new technologies
 - An About page which explains the goals of the OCMii
 - An Events page with upcoming events and description
 - A Contact Us page with a form, a google map and address information to contact the OCMii
-- A 404 page with redirect to main page
+- in addition a 404 page completes the website with redirect to main page
 
 ### Wireframes
 
@@ -168,7 +168,10 @@ The page consists of four pages and eleven features
 - When a user is on a page the link is displayed in bold in the navbar
 - User story covered 1, 2, 3
 
-![Logo and navbar](assets/docs/features/features_logonav.jpg)
+<details><summary>Logo and Nav bar</summary>
+<img src="assets/docs/features/features_logonav.jpg">
+</details>
+
 
 ### Hero Image (Main)
 
@@ -310,12 +313,12 @@ No errors were found for the 404.html page either.
 <img src="assets/docs/lighthouse/lighthouse_contactus.jpg">
 </details>
 
-### Testing the website
+### testing the website 
 
 Testing was done on the following devices:
-- Lenovo Yoga 2 Pro (both in pc and tablet mode)
+- MacBook Pro
 - iPhone 5
-- Xiaomi Redmi Note 7
+- iPad Air
 
 ### Browser compatibility
 
@@ -342,7 +345,6 @@ Testing was done on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Bio | Navigate to the About page and read out the Vision | Find Goal and strategy and ambition | Working |
-|-------------|------------|---------------------|-------------------|
 
 <details><summary>Screenshots</summary>
 <img src="assets/docs/user_stories/user_2.jpg">
@@ -481,7 +483,7 @@ Testing was done on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| 404 | Scroll down to the link | Returning to the main page | Working |
+| 404 | Scroll down the page to the link | Returning to the main page | Working |
 
 <details><summary>Screenshots</summary>
 <img src="assets/docs/user_stories/user_14.jpg">
@@ -540,8 +542,12 @@ Testing was done on the following browsers:
 
 - I would like to take the opportunity to thank:
 - Above all God who never ever abandon me.
-- CodeInstitute and LWETB for this amazing opportunity
-- My mentor Mo Shami for his feedback, advice, guidance.
+- CodeInstitute and LWETB for giving me this amazing opportunity
+- My mentor Mo Shami for his feedback, advice, guidance and constant support.
 - Myself for I have never worked so hard and learned so much in the process.
 
+
+## Developper's note
+
+- This is my very first website. I could not have predicted the sheer amount of work required to produce a profesional finished product. I have learned enough so far to know that if I were to start from scratch, I would do things differently. For instance document the work as I went along. It would have been easier. use a design framework like bootstrap. it would have resulted in a perhas cleaner result especially when debugging non-responsive elements. On to the next project!!!!!!
 
