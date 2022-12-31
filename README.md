@@ -487,5 +487,44 @@ Testing was done on the following browsers:
 <img src="assets/docs/user_stories/user_14.jpg">
 </details>
 
+## Bugs
 
+| **Bug** | **Fix** |
+|---------|---------|
+| On smaller devices, there is a grey zone on either side of the hero image on the Main page.  |not fixed! |
+| On smaller devices, there is a grey zone on either side of the hero image on the Event page.  |not fixed! |
 
+## Deployment
+
+- I deployed the website through GitHub Pages as per below:
+- (Source GitHub documentation here)
+
+1.	Navigate to the Settings tab in CI_PP1_OCMII GitHub repository 
+2.	On the left hand menu select Pages
+3.	Select Branch: master as source
+4.	After a few minutes the webpage refreshes automatically and the following notification appears "Your site is live at https://bwogit.github.io/CI_PP1_OCMII/ 
+
+![site](/assets/docs/notification.JPG)
+
+## How to fork this repository?
+
+1.	Go to the CI_PP1_OCMII GitHub repository
+2.	Click on Fork button in upper right hand corner
+
+## How to fork this repository?
+
+1.	Go to the CI_PP1_OCMII GitHub repository
+2.	Click on Code button  
+3.	Choose between  HTTPS, SSH, or Github CLI to copy the URL to your clipboard
+4.	Launch Git Bash
+5.	Select the directory
+6.	Use command “git clone” and paste the URL from the clipboard as per following ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 
+7.	Enter to generate your local clone.
+
+## Credits where Credit is due!
+
+## Media
+- Except from the main hero picture (created by me) All the pictures featuring on the website where taken from free high-quality repository: (Pexel and Unsplash ).
+- the video was downloaded from YouTube https://www.youtube.com/watch?v=OV5AubhjJ1I
+
+## Code
