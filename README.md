@@ -156,7 +156,7 @@ The website consists of five separate pages:
 - Favicon<span>.</span>io
 
 ## Features
-The page consists of four pages and twelve features
+The page consists of four pages and eleven features
 
 
 ### Logo and Navigation Bar
@@ -310,14 +310,182 @@ No errors were found for the 404.html page either.
 <img src="assets/docs/lighthouse/lighthouse_contactus.jpg">
 </details>
 
+### Testing the website
+
+Testing was done on the following devices:
+- Lenovo Yoga 2 Pro (both in pc and tablet mode)
+- iPhone 5
+- Xiaomi Redmi Note 7
+
+### Browser compatibility
+
+Testing was done on the following browsers:
+- Brave
+- Mozilla Firefox
+- Google Chrome
+- Microsoft Egde
+
+### Testing user stories
+
+1. As a first time user, I want to know what OCMii is about
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Bio | Navigate to the About page | Locating The Bio and read | Working |
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_1.jpg">
+</details>
+
+2. As a first time user, I want to know what OCMii wants to achieve
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Bio | Navigate to the About page and read out the Vision | Find Goal and strategy and ambition | Working |
+|-------------|------------|---------------------|-------------------|
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_2.jpg">
+</details>
+
+3. As a first time user, I want to know about how OCMii is going to achieve their goal
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Bio | Navigate to the About page and locate Solution and services | Read Info | Working |
+| Events | Navigate to the Event Page, scroll down to look at upcoming events hover on the event | Find out location and time | Working |
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_3.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_4.jpg">
+</details>
+
+4. As a returning user, I want to see the past and next events and workshops
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Events | Navigate to Events | Find out about future events | working |
+| video | Navigate to Events. Scroll down to locate the video | Find out about past events | working |
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_4.jpg">
+</details>
+
+5. As a returning user, I want to be kept informed of latest announcements
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Events | Navigate to Events. Locate upcoming events | Find out about future events | working |
+| New Technologies | Navigate to Main Locate new technologies | Find out about future tech | working |
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_4.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_4a.jpg">
+</details>
+
+6. As a returning user, I want to be able to leave comments and suggestions
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Contact Form|Navigate to the Contact Us Page fill out and submit|codeInstitute form validator success|success|
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_6.jpg">
+</details>
+
+7. As a returning user, I want to find latest news on social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer| scroll down to the bottom of any page | Click on social media links | working |
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_10.jpg">
+</details>
+
+8. As a returning user, I want to know how to get to OCMii
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| map | Navigate to the Contact Us | Use the Google Map | Working |
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_10.jpg">
+</details>
+
+9. As the site owner, I want users to know about upcoming events
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+| Footer| scroll to the bottom of any page | Click on social media links | working |
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_6.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_10.jpg">
+</details>
+
+10. As the site owner, I want users to get to feel they are Empowered by OCMii
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Hero Image (Main)| Navigate to Main | Be empowered by the moving picture | Working |
+| Hero Image (Events)| Navigate to Event | Be empowered by the picture | Working |
+| Footer| On any page scroll to the bottom | Click on social media links | Working |
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_10.jpg">
+</details>
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_10a.jpg">
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the Contact Us page, locate the map and click on directions link | See actual location on Goole Maps | Working |
+
+11. As the site owner, I want our users to be able to contact us
 
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Info Box | Navigate to Contact Us locate the address details | Address/email/phone | success |
 
+12. As the site owner, I want our users to be able to stay in touch with us
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us | Navigate to Contact Us | locate address/email/phone | success |
 
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_12.jpg">
+</details>
 
+13. As the site owner, I want our users to know who is behind OCMii
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About | Navigate to the About page | Locating The Bio and read | Working |
 
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_1.jpg">
+</details>
+
+14. As the site owner, I want our users to remain in the website even if a link is broken
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 | Scroll down to the link | Returning to the main page | Working |
+
+<details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_14.jpg">
+</details>
 
 
 
