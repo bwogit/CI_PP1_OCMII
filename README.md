@@ -291,7 +291,23 @@ No errors were found for the 404.html page either.
 <img src="assets/docs/validation/validation_result.jpg">
 </details>
 <details><summary>contrast error</summary>
-<img src="assets/docs/validation/validation_result.jpg">
+<img src="assets/docs/validation/validation_error.jpg">
+</details>
+
+### Performance 
+- I used the Google Lighthouse in Google Chrome Developer Tools to test the performance of the website. 
+
+<details><summary>Main</summary>
+<img src="assets/docs/lighthouse/lighthouse_main.jpg">
+</details>
+<details><summary>About</summary>
+<img src="assets/docs/lighthouse/lighthouse_about.jpg">
+</details>
+<details><summary>Events</summary>
+<img src="assets/docs/lighthouse/lighthouse_events.jpg">
+</details>
+<details><summary>Contact Us</summary>
+<img src="assets/docs/lighthouse/lighthouse_contactus.jpg">
 </details>
 
 
