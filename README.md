@@ -62,6 +62,7 @@
 - People from the Caribbean living in the Caribbean and abroad.
 - Angels Investors
 - Universities
+- Chambers of commerce
 
 ### User Requrements and Expectations
 
