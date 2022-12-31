@@ -122,16 +122,19 @@ The website consists of four separate pages:
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="assets/docs/wireframes/wireframe_main.jpg">
+<img src="assets/docs/wireframes/wireframes_main.jpg">
 </details>
 <details><summary>About</summary>
-<img src="assets/docs/wireframes/wireframe_about.jpg">
+<img src="assets/docs/wireframes/wireframes_about.jpg">
 </details>
 <details><summary>Events</summary>
-<img src="assets/docs/wireframes/wireframe_events.jpg">
+<img src="assets/docs/wireframes/wireframes_events.jpg">
 </details>
 <details><summary>Contact Us</summary>
-<img src="assets/docs/wireframes/wireframe_contactus.jpg">
+<img src="assets/docs/wireframes/wireframes_contactus.jpg">
+</details>
+<details><summary>404</summary>
+<img src="assets/docs/wireframes/wireframes_404.jpg">
 </details>
 
 ## Technologies Used
