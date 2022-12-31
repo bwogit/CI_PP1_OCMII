@@ -37,3 +37,36 @@
 10. [Credit where credit is due](#credit_where_credit_is_due)
 11. [Acknowledgements](#acknowledgements)
 
+## Project Goals 
+
+### User Goals
+- To be informed of the ambitions of OCMii
+- For the user to emancipate themselves from colonial vision of what is the Caribbean (beach, sand, coconut)
+- To be empowered
+- To be able to join us vibrant community and stay informed of future development
+- Participate in OCMii’s events and workshops
+
+### Site Owner Goals
+- Provide a new vision for the Caribbean
+- Be the changing force.
+- Inspire the diaspora
+- Introducing new technologies to the Caribbean
+- Show what is OCMii and what are the values and goals
+- Provide a platform for people to contact us.
+
+## User Experience
+
+### Target Audience
+
+- People interested in developing the Caribbean
+- People from the Caribbean living in the Caribbean and abroad.
+- Angels Investors
+- Universities
+
+### User Requrements and Expectations
+
+- A picture is worth a thousand words
+- Intuitive navigation system
+- Each picture is able to create a very profound emotion
+- Simple way to get in touch with the business
+- The message can be real at a glance irrespective of the device used.
