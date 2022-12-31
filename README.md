@@ -157,12 +157,12 @@ The website consists of four separate pages:
 - Favicon<span>.</span>io
 
 ## Features
-The page consists of four pages and eleven features
+The page consists of four pages and twelve features
 
 
 ### Logo and Navigation Bar
 
-- Present on all four pages
+- Present on all main pages (except 404)
 - It simplifies the navigation
 - The user knows which pages they are on by looking at the navigation bar.
 - The navbar is fully responsive ans switches to a hamburger menu.
@@ -260,6 +260,12 @@ The page consists of four pages and eleven features
 - User stories covered: 8, 9, 12
 
 ![Map](assets/docs/features/features_address.jpg)
+
+### 404 Error page
+
+- Gives users a way out of the error page without having to close the window or navigating away from the site. It conains a link to the Main page.
+
+![404](assets/docs/features/features_404.jpg)
 
 ## Validation
 
