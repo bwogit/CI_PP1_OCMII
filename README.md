@@ -79,6 +79,7 @@
 2. As a first time user, I want to know what OCMii wants to achieve
 3. As a first time user, I want to know about how OCMii is going to achieve their goal
 
+
 ### Returning User
 
 4.	As a returning user, I want to see the past and next events and workshops
@@ -93,6 +94,7 @@
 10.	As the site owner, I want users to get to feel they are part of the OCMii
 11.	As the site owner, I want our users to be able to contact us
 12.	As the site owner, I want our users to be able to stay in touch with us
+13. As the site owner, I want our users to know who is behind OCMii
 
 ## Design
 
@@ -181,5 +183,95 @@ The page consists of four pages and twelve features
 - This website was built on the premise that a picture is worth a thousnd words. This feature is there to empower our young Caribbean people.
 - OCMii wants to break away from the colonial leagacy whereby the future four our young people is nly concentrated in hotels, holiday, sea activities. 
 - the pictures depicts a group of young people whoare are embracing their future.
+- user stories covered : 4, 9, 10
 
 ![Hero Image Events](assets/docs/features/features_hero_2.jpg)
+
+### New Technologies
+
+- Series of high quality, high impact professional photographs. 
+- At a glance the user can see what the main technologies OCMii focuses on
+- in this particular iterration of the website Fintech, Artificial Intelligence and Electric vehicle technologies are in focus.
+- an added feature is text overlay on hover. 
+- user stories covered: 1, 2, 3, 10,
+
+![Technologies](assets/docs/features/features_new_tech.jpg)
+
+### Footer
+
+- This feature is present on all the pages except page 404
+- This gives access to five different social media links 
+    - Facebook 
+    - Twitter 
+    - Instagram
+    - YouTube
+    - LinkedIn
+- User stories covered: 1, 2, 6, 13, 16
+
+![Follow Us](assets/docs/features/features_footer.jpg)
+
+### About
+
+- Provides the user with a Bio and outlines the ambitions of OCMii
+- The image supports the text, and depict a professional setup  with well organised desk to convey efficiency and soberness of mind. This is to counteract the negative connotation of traditional beach and bikini shots.
+- User stories covered: 1, 2, 3, 10, 13
+
+![Bio](assets/docs/features/features_bio.jpg)
+
+### Events
+
+- Similarly to the new technology feature mentioned above, the events are presnting thre different workshops.
+- On hover the Name of the event, its location and date are displayed. 
+- whereas squares were chosen for technology, cirlcles are prefererd to depict human ceneterd workshops.  
+- User stories covered: 4, 5, 7
+
+![Bio](assets/docs/features/features_events.jpg)
+
+### Promo Video
+
+- A YouTube video to promote A past event
+- User stories covered: 4
+
+![Video](assets/docs/features/features_past_events.jpg)
+
+## Contact Us
+
+### Form
+
+- A form: allows the user to leave details and suggestions and the user can then be contacted. Each input is validated
+- User stories covered 5,
+
+![Form](assets/docs/features/features_form.jpg)
+
+### Map
+
+- Shows the location of OCMii headquarters on embedded Google Map
+- User stories covered: 12
+
+![Map](assets/docs/features/features_map.jpg)
+
+### Info Box
+
+- Provides the user with information about the Location of OCMii address, phone number, email, 
+- User stories covered: 8, 9, 12
+
+![Map](assets/docs/features/features_address.jpg)
+
+## Validation
+
+### HTML Validation
+
+To validate HTML code I used The W3C Markup Validation Service. The website passed with no errors. 
+<details><summary>Home</summary>
+<img src="assets/docs/validation/validator_html.jpg">
+</details>
+
+
+
+
+
+
+
+
+
+
