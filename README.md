@@ -7,37 +7,37 @@
 
 ## Table of Content
 
-1. [Project Goals](#project_goals)
-    1. [User Goals](#user_goals)
-    2. [Site Owner Goals](#site_owner_goals)
-2. [User Experience](#user_experience)
-    1. [Target Audience](#target_audience)
-    2. [User Requrements and Expectations](#user_requrements_and_expectations)
-    3. [User Stories](#user_stories)
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    3. [User Stories](#user-stories)
 3. [Design](#design)
-    1. [Design Choices](#design_choices)
+    1. [Design Choices](#design-choices)
     2. [Colour](#colours)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
-4. [Technologies Used](#technologies_used)
+4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
 5. [Features](#features)
 6. [Testing](#validation)
-    1. [HTML Validation](#HTML_validation)
-    2. [CSS Validation](#CSS_validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#performing_tests_on_various_devices)
-    6. [Browser compatibility](#browser_compatibility)
-    7. [Testing user stories](#testing_user_stories)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatibility)
+    7. [Testing user stories](#testing-user_stories)
 8. [Gremlins](#Gremlins)
 9. [Deployment](#deployment)
 10. [Credit where credit is due](#credit_where_credit_is_due)
 11. [Acknowledgements](#acknowledgements)
 
-## Project Goals 
+## Project Goals
 
 ### User Goals
 - To be informed of the ambitions of OCMii
@@ -511,7 +511,7 @@ Testing was done on the following browsers:
 1.	Go to the CI_PP1_OCMII GitHub repository
 2.	Click on Fork button in upper right hand corner
 
-## How to fork this repository?
+## How to clone this repository?
 
 1.	Go to the CI_PP1_OCMII GitHub repository
 2.	Click on Code button  
@@ -521,10 +521,27 @@ Testing was done on the following browsers:
 6.	Use command “git clone” and paste the URL from the clipboard as per following ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 
 7.	Enter to generate your local clone.
 
-## Credits where Credit is due!
+## Credits
 
 ## Media
 - Except from the main hero picture (created by me) All the pictures featuring on the website where taken from free high-quality repository: (Pexel and Unsplash ).
 - the video was downloaded from YouTube https://www.youtube.com/watch?v=OV5AubhjJ1I
 
 ## Code
+
+- The HTML for the responsive navigation bar with toggle was taken from [makeuseof](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/) website documentation code snippet
+- [Hero](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) animation on index page was taken from **Code Institute** Love running demo website.
+- Image overlay on hover inspired by [w3schools](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+- 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+- 404 code was taken from [creative blog](https://www.creativebloq.com/web-design/best-404-pages-812505)
+- Google map [responsive](https://ostraining.com/blog/coding/responsive-google-maps/) from ostraining courses.
+
+## Acknowledgements
+
+- I would like to take the opportunity to thank:
+- Above all God who never ever abandon me.
+- CodeInstitute and LWETB for this amazing opportunity
+- My mentor Mo Shami for his feedback, advice, guidance.
+- Myself for I have never worked so hard and learned so much in the process.
+
+
