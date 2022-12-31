@@ -275,6 +275,18 @@ To validate HTML code I used The W3C Markup Validation Service. The website pass
 <details><summary>HTML</summary>
 <img src="assets/docs/validation/validation_html.jpg">
 </details>
+<details><summary>Main</summary>
+<img src="assets/docs/validation/validation_html_index.jpg">
+</details>
+details><summary>About</summary>
+<img src="assets/docs/validation/validation_html_about.jpg">
+</details>
+details><summary>Event</summary>
+<img src="assets/docs/validation/validation_html_event.jpg">
+</details>
+details><summary>Main</summary>
+<img src="assets/docs/validation/validation_html_contactus.jpg">
+</details>
 
 ### 404 Validation
 No errors were found for the 404.html page either.
@@ -297,8 +309,21 @@ No errors were found for the 404.html page either.
 ### Accessibility
 - The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with only 1 contrast error.
 - EXCEPTION! the error cannot be fixed and is not really relevant. It concerns the toggle_checkbox for the hamburger menu which remains hidden and is not desigen to be seen by the user.
+- EXEPTION2: Wave reports an accesssibitlity error due to teh presence of video file
 <details><summary>wave</summary>
 <img src="assets/docs/validation/validation_result.jpg">
+</details>
+<details><summary>Main</summary>
+<img src="assets/docs/validation/wave_main.jpg">
+</details>
+<details><summary>About</summary>
+<img src="assets/docs/validation/wave_about.jpg">
+</details>
+<details><summary>Events</summary>
+<img src="assets/docs/validation/wave_events.jpg">
+</details>
+<details><summary>Contact Us</summary>
+<img src="assets/docs/validation/wave_contactus.jpg">
 </details>
 <details><summary>contrast error</summary>
 <img src="assets/docs/validation/validation_error.jpg">
