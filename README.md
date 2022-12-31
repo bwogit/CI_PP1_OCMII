@@ -122,5 +122,44 @@ The website consists of four separate pages:
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/wireframe_main.jpg">
+<img src="assets/docs/wireframes/wireframe_main.jpg">
 </details>
+<details><summary>About</summary>
+<img src="assets/docs/wireframes/wireframe_about.jpg">
+</details>
+<details><summary>Events</summary>
+<img src="assets/docs/wireframes/wireframe_events.jpg">
+</details>
+<details><summary>Contact Us</summary>
+<img src="assets/docs/wireframes/wireframe_contactus.jpg">
+</details>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Git
+- GitHub
+- Gitpod
+- Paint<span>.</span>NET
+- Balsamiq
+- Google Fonts
+- Font Awsome
+- Favicon<span>.</span>io
+
+## Features
+The page consists of four pages and twelve features
+
+
+### Logo and Navigation Bar
+
+- Present on all four pages
+- It simplifies the navigation
+- The user knows which pages they are on by looking at the navigation bar.
+- The navbar is fully responsive ans switches to a hamburger menu.
+- When a user is on a page the link is displayed in bold in the navbar
+
+![Logo and navbar](assets/docs/features/features_logonav.jpg)
