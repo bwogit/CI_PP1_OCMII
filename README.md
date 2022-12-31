@@ -121,3 +121,6 @@ The website consists of four separate pages:
 
 ### Wireframes
 
+<details><summary>Home</summary>
+<img src="docs/wireframes/wireframe_main.jpg">
+</details>
