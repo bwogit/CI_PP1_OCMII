@@ -70,6 +70,7 @@ h2 {
 
 /* hamburger menu hack*/
 input[type=checkbox]{
+   accent-color: white;
    display: none;
 } 
 
@@ -705,6 +706,7 @@ body {
    
    input[type=checkbox]:checked ~ .menu{
       display: block;
+      accent-color: white;
       }
    .hamburger {
       display: block;
