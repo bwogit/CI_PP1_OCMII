@@ -585,7 +585,7 @@ body {
  }
  
    .err {
-     color: #ffffff;
+      color: #3f3f3f;
      font-family: 'Nunito Sans', sans-serif;
      font-size: 11rem;
      position:absolute;
@@ -598,11 +598,11 @@ body {
    font-size: 8.5rem;
    left: 42%;
    top: 15%;
-   color: #ffffff;
+   color: #3f3f3f;
  }
  
   .err2 {
-     color: #ffffff;
+     color: #3f3f3f;
      font-family: 'Nunito Sans', sans-serif;
      font-size: 11rem;
      position:absolute;
@@ -622,7 +622,7 @@ body {
  
  a {
    text-decoration: none;
-   color: white;
+   color: rgb(70, 72, 227)
  }
  
  a:hover {
