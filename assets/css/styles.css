@@ -22,7 +22,6 @@ body{
    justify-content: space-between;
    padding: 20px;
    background-color: rgb(154, 153, 146);
-   color: rgb(70, 72, 227);
    }
 
 /* OCMii logo*/
@@ -71,7 +70,6 @@ h2 {
 
 /* hamburger menu hack*/
 input[type=checkbox]{
-   accent-color: white;
    display: none;
 } 
 
