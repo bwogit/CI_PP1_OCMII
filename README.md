@@ -303,9 +303,8 @@ To validate HTML code I used The W3C Markup Validation Service. The website pass
 </details>
 
 ### Accessibility
-- The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with only 1 contrast error.
-- EXCEPTION! the error cannot be fixed and is not really relevant. It concerns the toggle_checkbox for the hamburger menu which remains hidden and is not desigen to be seen by the user.
-- EXEPTION2: Wave reports an accesssibitlity error due to the presence of video file
+- The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with no errors.
+
 <details><summary>wave</summary>
 <img src="assets/docs/validation/validation_result.jpg">
 </details>
@@ -321,8 +320,8 @@ To validate HTML code I used The W3C Markup Validation Service. The website pass
 <details><summary>Contact Us</summary>
 <img src="assets/docs/validation/wave_contactus.jpg">
 </details>
-<details><summary>contrast error</summary>
-<img src="assets/docs/validation/validation_error.jpg">
+<details><summary>404</summary>
+<img src="assets/docs/validation/wave_404.jpg">
 </details>
 
 ### Performance 
@@ -523,6 +522,7 @@ Testing was done on the following browsers:
 |---------|---------|
 | On smaller devices, there is a grey zone on either side of the hero image on the Main page.  |not fixed! |
 | On smaller devices, there is a grey zone on either side of the hero image on the Event page.  |not fixed! |
+|Low contrast error on hamburger hidden toggle| I could not change color of the input box I therefore changed the background color and the font to maximize contrast|
 
 ## Deployment
 
@@ -560,7 +560,7 @@ Testing was done on the following browsers:
 ## Code
 
 - The HTML for the responsive navigation bar with toggle was taken from [makeuseof](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/) website documentation code snippet
-- [Hero](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) animation on index page was taken from **Code Institute** Love running demo website.
+- [Hero](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) animation on index page hero animation was taken from **Code Institute** Love running demo website.
 - Image overlay on hover inspired by [w3schools](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
 - 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 - 404 code was taken from [creative blog](https://www.creativebloq.com/web-design/best-404-pages-812505)
