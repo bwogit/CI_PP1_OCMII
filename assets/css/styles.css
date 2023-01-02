@@ -21,7 +21,6 @@ body{
    align-items: center;
    justify-content: space-between;
    padding: 20px;
-   /* background-color: rgb(118, 169, 227) */
    background-color: rgb(154, 153, 146)
    }
 
@@ -40,7 +39,6 @@ h2 {
    font-size: 280%;
    letter-spacing: 5px;
    margin-left: 10px;
-   /* color: whitesmoke; */
    color: #3f3f3f
 }
 
@@ -49,7 +47,7 @@ h2 {
   gap: 1em;
    font-size: 160%;
    font-family: Montserrat, sans-serif;
-   /* color: white; */
+   
    color: #3f3f3f
    }
 
@@ -709,13 +707,12 @@ body {
    
    input[type=checkbox]:checked ~ .menu{
       display: block;
-      accent-color: white;
       }
+
    .hamburger {
       display: block;
-      color: white;
-      accent-color: white;
-      }
+      color: #3f3f3f;
+   }
    }
 
 @media screen and (max-width: 640px){
