@@ -21,7 +21,8 @@ body{
    align-items: center;
    justify-content: space-between;
    padding: 20px;
-   background-color: rgb(118, 169, 227)
+   /* background-color: rgb(118, 169, 227) */
+   background-color: rgb(154, 153, 146)
    }
 
 /* OCMii logo*/
@@ -711,6 +712,7 @@ body {
    .hamburger {
       display: block;
       color: white;
+      accent-color: white;
       }
    }
 
