@@ -106,7 +106,7 @@ Furthermore, each image description will enhance the feeling of empowerment the 
 
 ### Colour
 
-The website is sober and non-aggressive. The site is purposely neutral with dark grey and light grey being the common colours. The advantage of this choice of colours is to make the pictures jump. The focus of the user is always on the pictures and information the websites provides.
+The website is sober and non-aggressive. The site is purposely neutral with dark and light grey being the common colour theme. The advantage of this choice of colours is to make the pictures the main feature on the page. The user's focus should not be stray away from the pictures and the information they convey.
 
 ### Fonts
 
@@ -357,6 +357,8 @@ Testing was done on the following browsers:
 
 ### Testing user stories
 
+- !!!Exception!!! The reader will have noticed that on the live site's header, the font colour is darker and the background colour is lighter than on the screenshots. The screenshots were taken at the time when the developper deemed acceptable to release the website with a low contrast warning from the (hidden from view) checkbox input. However during the last itteration the developper realised that changing the font from light to dark and the backgroud colour from dark to light cleared the warning. Other than this slight difference the features are the same and the website has not been modified.  
+
 1. As a first time user, I want to know what OCMii is about
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -515,6 +517,8 @@ Testing was done on the following browsers:
 <details><summary>Screenshots</summary>
 <img src="assets/docs/user_stories/user_14.jpg">
 </details>
+
+
 
 ## Bugs
 
