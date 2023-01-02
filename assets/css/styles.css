@@ -21,7 +21,8 @@ body{
    align-items: center;
    justify-content: space-between;
    padding: 20px;
-   background-color: rgb(154, 153, 146)
+   background-color: rgb(154, 153, 146);
+   color: rgb(70, 72, 227);
    }
 
 /* OCMii logo*/
@@ -39,7 +40,7 @@ h2 {
    font-size: 280%;
    letter-spacing: 5px;
    margin-left: 10px;
-   color: #3f3f3f
+   color: #3f3f3f;
 }
 
 .menu {
@@ -47,8 +48,7 @@ h2 {
   gap: 1em;
    font-size: 160%;
    font-family: Montserrat, sans-serif;
-   
-   color: #3f3f3f
+   color: #3f3f3f;
    }
 
 #menu, #logo{
@@ -585,12 +585,13 @@ body {
  }
  
    .err {
-      color: #3f3f3f;
-     font-family: 'Nunito Sans', sans-serif;
-     font-size: 11rem;
-     position:absolute;
-     left: 20%;
-     top: 8%;
+   /* color: #3f3f3f; */
+   color: rgb(70, 72, 227);
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 11rem;
+   position:absolute;
+   left: 20%;
+   top: 8%;
    }
  
  .far {
@@ -598,11 +599,12 @@ body {
    font-size: 8.5rem;
    left: 42%;
    top: 15%;
-   color: #3f3f3f;
+   color: rgb(70, 72, 227);
  }
  
   .err2 {
-     color: #3f3f3f;
+     color: rgb(70, 72, 227);
+     /* color: #3f3f3f; */
      font-family: 'Nunito Sans', sans-serif;
      font-size: 11rem;
      position:absolute;
@@ -712,7 +714,7 @@ body {
    .hamburger {
       display: block;
       color: #3f3f3f;
-   }
+         }
    }
 
 @media screen and (max-width: 640px){
@@ -840,7 +842,9 @@ body {
    top: 5%;
    height: 53%;
 }
+
 /*Below is for 404 page*/
+
 .err {
    font-size: 10rem;
    left: 0%;
