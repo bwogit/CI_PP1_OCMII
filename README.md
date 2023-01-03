@@ -345,7 +345,7 @@ To validate HTML code I used The W3C Markup Validation Service. The website pass
 Testing was done on the following devices:
 - MacBook Pro
 - iPhone 5
-- iPad Air
+- iPad mini
 
 ### Browser compatibility
 
