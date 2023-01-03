@@ -357,8 +357,6 @@ Testing was done on the following browsers:
 
 ### Testing user stories
 
-- !!!Exception!!! The reader will have noticed that on the live site's header, the font colour is darker and the background colour is lighter than on the screenshots. The screenshots were taken at the time when the developper deemed acceptable to release the website with a low contrast warning from the (hidden from view) checkbox input. However during the last itteration (after the screenshots were produced) the developper realised that changing the font from light to dark and the backgroud colour from dark to light cleared the warning. Other than this slight difference the features are the same and the website has not been modified.  
-
 1. As a first time user, I want to know what OCMii is about
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -435,7 +433,7 @@ Testing was done on the following browsers:
 | Footer| scroll down to the bottom of any page | Click on social media links | working |
 
 <details><summary>Screenshots</summary>
-<img src="assets/docs/user_stories/user_10.jpg">
+<img src="assets/docs/user_stories/user_7_10.jpg">
 </details>
 
 8. As a returning user, I want to know how to get to OCMii
@@ -445,7 +443,7 @@ Testing was done on the following browsers:
 | map | Navigate to the Contact Us | Use the Google Map | Working |
 
 <details><summary>Screenshots</summary>
-<img src="assets/docs/user_stories/user_10.jpg">
+<img src="assets/docs/user_stories/user_8.jpg">
 </details>
 
 9. As the site owner, I want users to know about upcoming events
@@ -459,7 +457,7 @@ Testing was done on the following browsers:
 <img src="assets/docs/user_stories/user_6.jpg">
 </details>
 <details><summary>Screenshots</summary>
-<img src="assets/docs/user_stories/user_10.jpg">
+<img src="assets/docs/user_stories/user_7_10.jpg">
 </details>
 
 10. As the site owner, I want users to get to feel they are Empowered by OCMii
@@ -471,22 +469,22 @@ Testing was done on the following browsers:
 | Footer| On any page scroll to the bottom | Click on social media links | Working |
 
 <details><summary>Screenshots</summary>
-<img src="assets/docs/user_stories/user_10.jpg">
+<img src="assets/docs/user_stories/user_7_10.jpg">
 </details>
 <details><summary>Screenshots</summary>
 <img src="assets/docs/user_stories/user_10a.jpg">
 </details>
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the map and click on directions link | See actual location on Goole Maps | Working |
 
 11. As the site owner, I want our users to be able to contact us
-
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Info Box | Navigate to Contact Us locate the address details | Address/email/phone | success |
+
+details><summary>Screenshots</summary>
+<img src="assets/docs/user_stories/user_11_12.jpg">
+</details>
 
 12. As the site owner, I want our users to be able to stay in touch with us
 
