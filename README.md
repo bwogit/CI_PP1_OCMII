@@ -1,4 +1,4 @@
-# OCMii Opening the Caribbean to innovation & investment
+# OCMii Opening the Caribbean Market to innovation & investment
 (developper : Jeremie Sandot)
 
 ![responsive image](/assets/docs/responsive.JPG)
@@ -357,7 +357,7 @@ Testing was done on the following browsers:
 
 ### Testing user stories
 
-- !!!Exception!!! The reader will have noticed that on the live site's header, the font colour is darker and the background colour is lighter than on the screenshots. The screenshots were taken at the time when the developper deemed acceptable to release the website with a low contrast warning from the (hidden from view) checkbox input. However during the last itteration the developper realised that changing the font from light to dark and the backgroud colour from dark to light cleared the warning. Other than this slight difference the features are the same and the website has not been modified.  
+- !!!Exception!!! The reader will have noticed that on the live site's header, the font colour is darker and the background colour is lighter than on the screenshots. The screenshots were taken at the time when the developper deemed acceptable to release the website with a low contrast warning from the (hidden from view) checkbox input. However during the last itteration (after the screenshots were produced) the developper realised that changing the font from light to dark and the backgroud colour from dark to light cleared the warning. Other than this slight difference the features are the same and the website has not been modified.  
 
 1. As a first time user, I want to know what OCMii is about
 
